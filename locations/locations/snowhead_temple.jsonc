@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 484,
-            "y": 402
+            "x": 242,
+            "y": 201
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 582,
-            "y": 247
+            "x": 291,
+            "y": 124
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 571,
-            "y": 368
+            "x": 286,
+            "y": 184
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 166,
-            "y": 428
+            "x": 83,
+            "y": 214
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 270,
-            "y": 512
+            "x": 135,
+            "y": 256
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 94,
-            "y": 441
+            "x": 47,
+            "y": 220
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 158,
-            "y": 259
+            "x": 79,
+            "y": 130
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 217,
-            "y": 383
+            "x": 108,
+            "y": 192
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 190,
-            "y": 20
+            "x": 95,
+            "y": 10
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 479,
-            "y": 1073
+            "x": 240,
+            "y": 536
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 947,
-            "y": 153
+            "x": 474,
+            "y": 76
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1290,
-            "y": 220
+            "x": 645,
+            "y": 110
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1251,
-            "y": 199
+            "x": 626,
+            "y": 100
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1208,
-            "y": 228
+            "x": 604,
+            "y": 114
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 812,
-            "y": 364
+            "x": 406,
+            "y": 182
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 872,
-            "y": 498
+            "x": 436,
+            "y": 249
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1011,
-            "y": 473
+            "x": 506,
+            "y": 236
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 845,
-            "y": 258
+            "x": 422,
+            "y": 129
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 785,
-            "y": 818
+            "x": 392,
+            "y": 409
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 877,
-            "y": 1093
+            "x": 438,
+            "y": 546
           }
         ]
       },
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 815,
-            "y": 1138
+            "x": 408,
+            "y": 569
           }
         ]
       },
@@ -327,8 +327,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1163,
-            "y": 1008
+            "x": 582,
+            "y": 504
           }
         ]
       },
@@ -348,9 +348,473 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1052,
-            "y": 1004
+            "x": 526,
+            "y": 502
           }
+        ]
+      },
+      {
+        "name": "Snowhead Temple Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Snowhead Temple Block Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BLOCK_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Block Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BLOCK_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Early Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_EARLY_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Early Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_EARLY_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Early Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_EARLY_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Early Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_EARLY_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Boss Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BOSS_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room After Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_AFTER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room After Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_AFTER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Large Crate",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_LARGE_CRATE"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Near Boss Key Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_NEAR_BOSS_KEY_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Near Boss Key Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_NEAR_BOSS_KEY_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Scarecrow Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_SCARECROW_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Scarecrow Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_SCARECROW_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Compass Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_COMPASS_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Compass Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_COMPASS_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Compass Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_COMPASS_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Compass Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_COMPASS_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Compass Room Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_COMPASS_ROOM_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Dual Switches Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_DUAL_SWITCHES_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Dual Switches Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_DUAL_SWITCHES_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Dual Switches Room Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_DUAL_SWITCHES_ROOM_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Dual Switches Room Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_DUAL_SWITCHES_ROOM_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Entrance Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ENTRANCE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Entrance Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ENTRANCE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Map Room Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_MAP_ROOM_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Map Room Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_MAP_ROOM_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Map Room Large Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_MAP_ROOM_LARGE_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Map Room Large Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_MAP_ROOM_LARGE_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Map Room Large Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_MAP_ROOM_LARGE_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Lower Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_LOWER_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Pillars Room Upper Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_PILLARS_ROOM_UPPER_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Wizzrobe Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_WIZZROBE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Wizzrobe Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_WIZZROBE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Wizzrobe Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_WIZZROBE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Wizzrobe Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_WIZZROBE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Wizzrobe Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_WIZZROBE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Bottom Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "snowhead_temple", "x": 10, "y": 649 }
         ]
       }
     ]

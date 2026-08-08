@@ -13,8 +13,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 826,
-            "y": 1100
+            "x": 413,
+            "y": 550
           }
         ]
       },
@@ -29,8 +29,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 724,
-            "y": 816
+            "x": 362,
+            "y": 408
           }
         ]
       },
@@ -45,8 +45,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 965,
-            "y": 607
+            "x": 482,
+            "y": 304
           }
         ]
       },
@@ -61,8 +61,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 1149,
-            "y": 734
+            "x": 574,
+            "y": 367
           }
         ]
       },
@@ -77,8 +77,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 966,
-            "y": 1018
+            "x": 483,
+            "y": 509
           }
         ]
       },
@@ -93,8 +93,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 966,
-            "y": 351
+            "x": 483,
+            "y": 176
           }
         ]
       },
@@ -109,8 +109,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 507,
-            "y": 973
+            "x": 254,
+            "y": 486
           }
         ]
       },
@@ -125,8 +125,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 69,
-            "y": 291
+            "x": 34,
+            "y": 146
           }
         ]
       },
@@ -141,8 +141,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 701,
-            "y": 1123
+            "x": 350,
+            "y": 562
           }
         ]
       },
@@ -157,8 +157,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 592,
-            "y": 755
+            "x": 296,
+            "y": 378
           }
         ]
       },
@@ -173,8 +173,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 680,
-            "y": 609
+            "x": 340,
+            "y": 304
           }
         ]
       },
@@ -189,8 +189,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 854,
-            "y": 867
+            "x": 427,
+            "y": 434
           }
         ]
       },
@@ -205,8 +205,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 904,
-            "y": 600
+            "x": 452,
+            "y": 300
           }
         ]
       },
@@ -221,8 +221,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 442,
-            "y": 601
+            "x": 221,
+            "y": 300
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 508,
-            "y": 736
+            "x": 254,
+            "y": 368
           }
         ]
       },
@@ -253,8 +253,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 304,
-            "y": 712
+            "x": 152,
+            "y": 356
           }
         ]
       },
@@ -269,8 +269,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 773,
-            "y": 569
+            "x": 386,
+            "y": 284
           }
         ]
       },
@@ -285,8 +285,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 835,
-            "y": 540
+            "x": 418,
+            "y": 270
           }
         ]
       },
@@ -301,8 +301,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 582,
-            "y": 483
+            "x": 291,
+            "y": 242
           }
         ]
       },
@@ -317,8 +317,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 681,
-            "y": 414
+            "x": 340,
+            "y": 207
           }
         ]
       },
@@ -339,9 +339,443 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 722,
-            "y": 104
+            "x": 361,
+            "y": 52
           }
+        ]
+      },
+      {
+        "name": "Woodfall Temple Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Woodfall Temple Entrance Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Upper Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_UPPER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Upper Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_UPPER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Maze Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAZE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Maze Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAZE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Miniboss Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MINIBOSS_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Miniboss Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MINIBOSS_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Miniboss Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MINIBOSS_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Miniboss Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MINIBOSS_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Boss Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Compass Room Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_COMPASS_ROOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Compass Room Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_COMPASS_ROOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Compass Room Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_COMPASS_ROOM_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Entrance Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Entrance Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Entrance Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Entrance Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Entrance Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_ENTRANCE_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Lower Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_LOWER_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Main Room Upper Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAIN_ROOM_UPPER_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Map Room Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAP_ROOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Map Room Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAP_ROOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Map Room Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAP_ROOM_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Map Room Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAP_ROOM_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Map Room Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_MAP_ROOM_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Pre Boss Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_PRE_BOSS_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Upper Walkway Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_UPPER_WALKWAY_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Temple Water Room Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_WATER_ROOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "woodfall_temple", "x": 10, "y": 634 }
         ]
       }
     ]

@@ -14,25 +14,19 @@
           {
             "name": "Romani Ranch Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_romani.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_TINGLE_MAP_01"]
           },
           {
             "name": "Great Bay Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_greatbay.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_TINGLE_MAP_02"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 450,
-            "y": 371
+            "x": 1580,
+            "y": 1305
           }
         ]
       },
@@ -42,10 +36,11 @@
           {
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GARO_MASK"]
           },
           {
             "name": "Purchase",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_MILK_PURCHASE"],
             "chest_unopened_img": "images/characters/gorman_brothers.png",
             "visibility_rules": [
               "shopsanity_enabled",
@@ -56,8 +51,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 470,
-            "y": 376
+            "x": 1651,
+            "y": 1319
           }
         ]
       },
@@ -73,8 +68,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 349,
-            "y": 352
+            "x": 1222,
+            "y": 1234
           }
         ]
       },
@@ -83,27 +78,19 @@
         "sections": [
           {
             "name": "Rooftop Chest",
-            "access_rules": [
-              "easy_logic, hookshot, zora, $baby_can_plant_beans",
-              "normal_logic, hookshot",
-              "normal_logic, $can_plant_beans",
-              "normal_logic, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_CHEST"]
           },
           {
             "name": "Dog Race",
             "chest_unopened_img": "images/icons/dog.png",
-            "access_rules": [
-              "easy_logic, giantswallet, truth",
-              "normal_logic, truth"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 329,
-            "y": 369
+            "x": 1152,
+            "y": 1291
           }
         ]
       },
@@ -114,26 +101,26 @@
             "name": "Free Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_BARN_COW_LEFT"]
           },
           {
             "name": "Stables Front Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_BARN_COW_MIDDLE"]
           },
           {
             "name": "Stables Back Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_BARN_COW_RIGHT"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 397,
-            "y": 342
+            "x": 1391,
+            "y": 1199
           }
         ]
       },
@@ -147,21 +134,729 @@
           },
           {
             "name": "Defended Against Aliens",
-            "access_rules": ["$can_use_powder_keg, bow"],
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_ALIENS"],
             "chest_unopened_img": "images/characters/romani.png"
           },
           {
             "name": "Helping Cremia",
             "chest_unopened_img": "images/characters/cremia.png",
-            "access_rules": ["$can_use_powder_keg, bow"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CREMIA_ESCORT"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 391,
-            "y": 350
+            "x": 1377,
+            "y": 1227
           }
+        ]
+      },
+      {
+        "name": "Romani Ranch Field Cows",
+        "sections": [
+          {
+            "name": "Field Cow Entrance",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_FIELD_COW_ENTRANCE"],
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"]
+          },
+          {
+            "name": "Field Cow Near House Back",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_FIELD_COW_NEAR_HOUSE_BACK"],
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"]
+          },
+          {
+            "name": "Field Cow Near House Front",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_FIELD_COW_NEAR_HOUSE_FRONT"],
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1264,
+            "y": 1199
+          }
+        ]
+      },
+      {
+        "name": "Milk Road Owl Statue",
+        "sections": [
+          {
+            "name": "Milk Road Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1623,
+            "y": 1368
+          }
+        ]
+      },
+      {
+        "name": "Doggy Racetrack Filler",
+        "sections": [
+          {
+            "name": "Doggy Racetrack Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Doggy Racetrack Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Doggy Racetrack Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Doggy Racetrack Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DOGGY_RACETRACK_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1096, "y": 1284 }
+        ]
+      },
+      {
+        "name": "Gorman Track Filler",
+        "sections": [
+          {
+            "name": "Gorman Track Large Crate",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_LARGE_CRATE"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Gorman Track Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORMAN_TRACK_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1665, "y": 1417 }
+        ]
+      },
+      {
+        "name": "Romani Ranch & Milk Road Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Romani Ranch Field Large Crate",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_FIELD_LARGE_CRATE"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Milk Road Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Milk Road Keaton Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MILK_ROAD_KEATON_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 31",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_31"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 32",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_32"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 33",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_33"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 34",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_34"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 35",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_35"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 36",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_36"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 37",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_37"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 38",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_38"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 39",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_39"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 40",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_40"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 41",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_41"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 42",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_42"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 43",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_43"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 44",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_44"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 45",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_45"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 46",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_46"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 47",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_47"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 48",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_48"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 49",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_49"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 50",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_50"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 51",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_51"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 52",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_52"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 53",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_53"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 54",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_54"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 55",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_55"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 56",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_56"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Grass 57",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_GRASS_57"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_05"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_06"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Romani Ranch Tree 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROMANI_RANCH_TREE_07"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1489, "y": 1262 }
         ]
       }
     ]

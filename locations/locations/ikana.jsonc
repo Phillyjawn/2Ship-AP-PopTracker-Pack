@@ -9,14 +9,14 @@
         "sections": [
           {
             "name": "Road to Ikana Pillar Chest",
-            "access_rules": ["hookshot"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 620,
-            "y": 300
+            "x": 2178,
+            "y": 1052
           }
         ]
       },
@@ -25,14 +25,14 @@
         "sections": [
           {
             "name": "Road to Ikana Rock Grotto Chest",
-            "access_rules": ["goron"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 647,
-            "y": 300
+            "x": 2276,
+            "y": 1052
           }
         ]
       },
@@ -42,17 +42,14 @@
           {
             "name": "Road to Ikana Stone Soldier",
             "chest_unopened_img": "images/characters/shiro.png",
-            "access_rules": [
-              "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
-              "normal_logic, $can_play_eponas, redpotion, $can_use_lens"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_STONE_MASK"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 681,
-            "y": 312
+            "x": 2388,
+            "y": 1094
           }
         ]
       },
@@ -62,10 +59,7 @@
         "sections": [
           {
             "name": "Bombable Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives",
-              "normal_logic, $has_explosives"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO"]
           },
           {
             "name": "Day 1 Bats Chest",
@@ -77,46 +71,30 @@
           {
             "name": "Day 1 Iron Knuckle Song",
             "chest_unopened_img": "images/equipment/song_storms_no_text.png",
-            "access_rules": [
-              "easy_logic, captainhat, $baby_can_smack_hard, $can_use_fire_arrows",
-              "normal_logic, captainhat, $can_smack_hard"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_SONG_OF_STORMS"]
           },
           {
             "name": "Day 2 Dampe Bats",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles, $baby_can_smack, $baby_has_explosives",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_PIECE_OF_HEART"]
           },
           {
             "name": "Day 2 Iron Knuckle Chest",
-            "access_rules": [
-              "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives, $can_use_lens",
-              "normal_logic, captainhat, $can_smack_hard, $has_explosives"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_CHEST"]
           },
           {
             "name": "Day 3 Dampe Big Poe Chest",
-            "access_rules": [
-              "easy_logic, captainhat, bow",
-              "normal_logic, captainhat, bow",
-              "normal_logic, captainhat, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_CHEST"]
           },
           {
             "name": "Sonata To Wake Sleeping Skeleton Chest",
-            "access_rules": [
-              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
-              "normal_logic, $can_play_sonata, $can_smack_hard"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_CAPTAIN_MASK"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 685,
-            "y": 257
+            "x": 2402,
+            "y": 898
           }
         ]
       },
@@ -129,29 +107,23 @@
         "sections": [
           {
             "name": "Grotto Chest",
-            "access_rules": [""]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_CHEST"]
           },
           {
             "name": "Zora Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
-              "normal_logic, zora, oceandeed"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_SCRUB_HUGE_RUPEE"]
           },
           {
             "name": "Deku Scrub Purchase Blue Potion",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
-            "access_rules": [
-              "easy_logic, zora, $baby_has_bottle, adultswallet",
-              "normal_logic, zora, $has|bottles|1, adultswallet"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_SCRUB_POTION_REFILL"]
           },
           {
             "name": "Zora Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, zora, oceandeed"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_SCRUB_PIECE_OF_HEART"]
           },
           {
             "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
@@ -163,39 +135,29 @@
             //  "shuffle_regional_maps_vanilla",
             //  "shuffle_regional_maps_anywhere"
             //],
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay",
-              "normal_logic, $has_projectiles, $great_bay"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_TINGLE_MAP_01"]
           },
           {
             "name": "Music Box Mummy",
             "chest_unopened_img": "images/masks/gibdo.png",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
-              "normal_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MUSIC_BOX_HOUSE_FATHER"]
           },
           {
             "name": "Spirit House",
-            "access_rules": [
-              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
-              "normal_logic, $can_use_ice_arrows, bow",
-              "normal_logic, $can_use_ice_arrows, hookshot"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GHOST_HUT_PIECE_OF_HEART"]
           },
           {
             "name": "Stone Tower Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_st.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": ["$can_use_ice_arrows, $has|fairy_st|15"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GREAT_FAIRY"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 847,
-            "y": 251
+            "x": 2978,
+            "y": 884
           }
         ]
       },
@@ -208,32 +170,1609 @@
         "sections": [
           {
             "name": "Outside Left Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_plant_beans",
-              "normal_logic, $can_plant_beans"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_CHEST_01"]
           },
           {
             "name": "Outside Middle Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_plant_beans",
-              "normal_logic, $can_plant_beans"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_CHEST_02"]
           },
           {
             "name": "Outside Right Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_plant_beans",
-              "normal_logic, $can_plant_beans"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_CHEST_03"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 946,
-            "y": 216
+            "x": 3323,
+            "y": 757
           }
+        ]
+      },
+      {
+        "name": "Ikana Canyon Owl Statue",
+        "sections": [
+          {
+            "name": "Ikana Canyon Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2915, "y": 884 }
+        ]
+      },
+      {
+        "name": "Stone Tower Owl Statue",
+        "sections": [
+          {
+            "name": "Stone Tower Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 3323, "y": 814 }
+        ]
+      },
+      {
+        "name": "Ancient Castle of Ikana Filler",
+        "sections": [
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Boss Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_BOSS_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Entrance Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_ENTRANCE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Entrance Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_ENTRANCE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Exterior Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_EXTERIOR_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left First Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_FIRST_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left First Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_FIRST_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Second Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_SECOND_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Second Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_SECOND_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Second Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_SECOND_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Second Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_SECOND_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Third Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_THIRD_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Left Third Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_LEFT_THIRD_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Right Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_RIGHT_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Right Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_RIGHT_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ancient Castle of Ikana Courtyard Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ANCIENT_CASTLE_OF_IKANA_COURTYARD_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2992, "y": 1045 }
+        ]
+      },
+      {
+        "name": "Beneath the Graveyard Filler",
+        "sections": [
+          {
+            "name": "Beneath the Graveyard Dampe Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Dampe Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_DAMPE_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 1 Bats Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_1_BATS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 1 Bats Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_1_BATS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 1 Bats Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_1_BATS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 1 Early Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_1_EARLY_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 1 Early Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_1_EARLY_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 After Pit Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_AFTER_PIT_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 After Pit Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_AFTER_PIT_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 After Pit Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_AFTER_PIT_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 After Pit Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_AFTER_PIT_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 Before Pit Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_BEFORE_PIT_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 Before Pit Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_BEFORE_PIT_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Graveyard Night 2 Early Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_EARLY_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2409, "y": 982 }
+        ]
+      },
+      {
+        "name": "Beneath the Well Filler",
+        "sections": [
+          {
+            "name": "Beneath the Well Big Poe Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_BIG_POE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Big Poe Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_BIG_POE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Big Poe Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_BIG_POE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Big Poe Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_BIG_POE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Left Side Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_LEFT_SIDE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Left Side Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_LEFT_SIDE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Left Side Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_LEFT_SIDE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Left Side Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_LEFT_SIDE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Left Side Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_LEFT_SIDE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Middle Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_MIDDLE_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath the Well Cow Room Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_COW_ROOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Cow Room Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_COW_ROOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Cow Room Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_COW_ROOM_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Four Spiked Bars Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_FOUR_SPIKED_BARS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Four Spiked Bars Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_FOUR_SPIKED_BARS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Four Spiked Bars Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_FOUR_SPIKED_BARS_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Four Spiked Bars Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_FOUR_SPIKED_BARS_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Four Spiked Bars Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_FOUR_SPIKED_BARS_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Right Fire Keese Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_RIGHT_FIRE_KEESE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Right Fire Keese Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_RIGHT_FIRE_KEESE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Right Fire Keese Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_RIGHT_FIRE_KEESE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Right Fire Keese Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_RIGHT_FIRE_KEESE_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Two Spiked Bars Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_TWO_SPIKED_BARS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Two Spiked Bars Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_TWO_SPIKED_BARS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Beneath the Well Tree",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_WELL_TREE"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2810, "y": 828 }
+        ]
+      },
+      {
+        "name": "Lone Peak Shrine Filler",
+        "sections": [
+          {
+            "name": "Lone Peak Shrine Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Lone Peak Shrine Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2444, "y": 267 }
+        ]
+      },
+      {
+        "name": "Ikana Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Road to Ikana Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Canyon Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_CANYON_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_LOWER_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_LOWER_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_LOWER_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_LOWER_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Lower Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_LOWER_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2409, "y": 786 }
+        ]
+      },
+      {
+        "name": "Sakon Hideout Filler",
+        "sections": [
+          {
+            "name": "Sakon Hideout First Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SAKON_HIDEOUT_FIRST_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Sakon Hideout First Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SAKON_HIDEOUT_FIRST_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Sakon Hideout Second Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SAKON_HIDEOUT_SECOND_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Sakon Hideout Second Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SAKON_HIDEOUT_SECOND_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Sakon Hideout Third Room Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SAKON_HIDEOUT_THIRD_ROOM_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2768, "y": 1087 }
+        ]
+      },
+      {
+        "name": "Secret Shrine Filler",
+        "sections": [
+          {
+            "name": "Secret Shrine Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Secret Shrine Dinolfos Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_DINOLFOS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Dinolfos Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_DINOLFOS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Dinolfos Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_DINOLFOS_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Dinolfos Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_DINOLFOS_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Entrance Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_ENTRANCE_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Garo Master Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_GARO_MASTER_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wart Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WART_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wizzrobe Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wizzrobe Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wizzrobe Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wizzrobe Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Wizzrobe Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2761, "y": 729 }
+        ]
+      },
+      {
+        "name": "Stone Tower Filler",
+        "sections": [
+          {
+            "name": "Stone Tower Climb Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_CLIMB_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Climb Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_CLIMB_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Higher Scarecrow Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_HIGHER_SCARECROW_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Inverted Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Inverted Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Inverted Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Inverted Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Inverted Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_INVERTED_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Lower Scarecrow Pot 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_LOWER_SCARECROW_POT_12"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Owl Statue Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_OWL_STATUE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Owl Statue Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_OWL_STATUE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Owl Statue Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_OWL_STATUE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Owl Statue Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_OWL_STATUE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 3330, "y": 687 }
         ]
       }
     ]

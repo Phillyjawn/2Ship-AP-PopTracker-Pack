@@ -56,6 +56,15 @@
                   "type": "layout",
                   "key": "vertical_collectibles_grid"
                 }
+              },
+              {
+                "type": "group",
+                "header": "Day / Time",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "day_time_and_sanities"
+                }
               }
             ]
           },
@@ -157,6 +166,17 @@
                   "h_alignment": "center",
                   "v_alignment": "center",
                   "key": "horizontal_collectibles_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Day / Time",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "h_alignment": "center",
+                  "v_alignment": "center",
+                  "key": "day_time_and_sanities"
                 }
               }
             ]

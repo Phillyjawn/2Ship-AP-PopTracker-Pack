@@ -14,15 +14,15 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 528,
-            "y": 159
+            "x": 1854,
+            "y": 561
           }
         ],
         "sections": [
           {
             "name": "Invisible Ladder Cave Healing Invisible Goron",
             "chest_unopened_img": "images/masks/goron.png",
-            "access_rules": ["$can_use_lens, $can_play_healing"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_GRAVEYARD_DARMANI"]
           },
           {
             "name": "Feeding Freezing Goron",
@@ -34,26 +34,15 @@
           },
           {
             "name": "Smithy Upgrade",
-            "access_rules": [
-              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
-              "normal_logic, adultswallet, $can_use_fire_arrows",
-              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest",
-              "normal_logic, adultswallet, $clear_snowhead"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMITHY_GILDED_SWORD"]
           },
           {
             "name": "Smithy Gold Dust Upgrade",
-            "access_rules": [
-              "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
-              "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMITHY_RAZOR_SWORD"]
           },
           {
             "name": "Spring Waterfall Chest",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_WATERFALL_CHEST"]
           },
           {
             "name": "Spring Ramp Grotto",
@@ -65,12 +54,7 @@
           {
             "name": "Don Gero Mask Frog Song HP",
             "chest_unopened_img": "images/masks/don_gero.png",
-            "access_rules": [
-              "easy_logic, dongeromask, $baby_clear_snowhead, $baby_woodfall_temple, $baby_can_smack_hard, $baby_has_explosives, deku, goron, $baby_great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, $woodfall_temple, $can_smack, $has_explosives, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, $woodfall_temple, $can_smack, goron, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, dongeromask, $clear_snowhead, $woodfall_temple, deku, $great_bay_temple, $can_use_ice_arrows, $can_use_fire_arrows"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_DON_GERO_MASK"]
           }
         ]
       },
@@ -83,8 +67,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 587,
-            "y": 148
+            "x": 2065,
+            "y": 519
           }
         ],
         "sections": [
@@ -96,11 +80,7 @@
           },
           {
             "name": "Ramp Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, goron, hookshot",
-              "normal_logic, $has_explosives, goron",
-              "normal_logic, $has_explosives, hookshot"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_CHEST"]
           },
           {
             "name": "Goron Elder Request",
@@ -113,34 +93,19 @@
           },
           {
             "name": "Hot Water Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
-              "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, goron, $has|bottles|1, $has_explosives",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_FROZEN_GROTTO_CHEST"]
           },
           {
             "name": "Spring Underwater Cave Chest",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_UNDERWATER_CHEST_01"]
           },
           {
             "name": "Spring Underwater Near Ramp Chest",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_UNDERWATER_CHEST_02"]
           },
           {
             "name": "Goron Racetrack Prize",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead, powderkeg",
-              "normal_logic, $clear_snowhead, powderkeg"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_GOLD_DUST"]
           }
         ]
       },
@@ -153,25 +118,22 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 677,
-            "y": 59
+            "x": 2374,
+            "y": 210
           }
         ],
         "sections": [
           {
             "name": "Center Chest",
-            "access_rules": ["easy_logic, $can_use_lens", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_LENS_CHEST"]
           },
           {
             "name": "Invisible Chest",
-            "access_rules": ["easy_logic, $can_use_lens", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_INVISIBLE_CHEST"]
           },
           {
             "name": "Rock Chest",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, $can_use_lens",
-              "normal_logic, $has_explosives"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_LONE_PEAK_SHRINE_BOULDER_CHEST"]
           }
         ]
       },
@@ -184,32 +146,29 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 641,
-            "y": 121
+            "x": 2248,
+            "y": 421
           }
         ],
         "sections": [
           {
             "name": "Baby Goron Lullaby",
-            "access_rules": [
-              "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, $baby_has_bottle",
-              "normal_logic, goron, $can_play_lullaby"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_FULL_LULLABY"]
           },
           {
             "name": "Shop Item 1",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["easy_logic, goron", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHOP_ITEM_01"]
           },
           {
             "name": "Shop Item 2",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["easy_logic, goron", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHOP_ITEM_02"]
           },
           {
             "name": "Shop Item 3",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["easy_logic, goron", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHOP_ITEM_03"]
           },
           {
             "name": "Shop (Spring) Item 1",
@@ -238,27 +197,19 @@
           {
             "name": "Deku Scrub Purchase Bomb Bag",
             "visibility_rules": ["scrubsanity"],
-            "access_rules": [
-              "easy_logic, goron, adultswallet",
-              "normal_logic, goron, adultswallet",
-              "normal_logic, @Goron Village/Deku Trade Freestanding HP, @Southern Swamp/Swamp Business Scrub/Southern Swamp Deku Trade Freestanding HP, moontear, adultswallet"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SCRUB_BOMB_BAG"]
           },
           {
             "name": "Deku Trade",
-            "access_rules": ["deku, swampdeed"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SCRUB_DEED"]
           },
           {
             "name": "Deku Trade Freestanding HP",
-            "access_rules": ["@Goron Village/Deku Trade"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_PIECE_OF_HEART"]
           },
           {
             "name": "Powder Keg Goron Reward",
-            "access_rules": [
-              "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, goron, $can_use_fire_arrows"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_MEDIGORON"]
           //},
           //{
           //  "name": "Deku Trade Freestanding HP (Spring)",
@@ -279,22 +230,19 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 499,
-            "y": 149
+            "x": 1756,
+            "y": 519
           }
         ],
         "sections": [
           {
             "name": "Grotto Chest",
-            "access_rules": [
-              "easy_logic, goron, magic, $baby_has_explosives",
-              "normal_logic, goron, magic, $has_explosives"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_CHEST"]
           },
           {
             "name": "Scarecrow Pillar HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["goron, $can_use_lens, hookshot"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_PIECE_OF_HEART"]
           }
         ]
       },
@@ -307,19 +255,1063 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 491,
-            "y": 73
+            "x": 1728,
+            "y": 252
           }
         ],
         "sections": [
           {
             "name": "Snowhead Great Fairy Reward",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": [
-              "easy_logic, $baby_snowhead_temple, $has|fairy_sh|15",
-              "normal_logic, $snowhead_temple, $has|fairy_sh|15"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_GREAT_FAIRY"]
           }
+        ]
+      },
+      {
+        "name": "Mountain Village Owl Statue",
+        "sections": [
+          {
+            "name": "Mountain Village Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1911, "y": 596 }
+        ]
+      },
+      {
+        "name": "Snowhead Owl Statue",
+        "sections": [
+          {
+            "name": "Snowhead Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1686, "y": 526 }
+        ]
+      },
+      {
+        "name": "Mountain Village Tunnel Grotto Chest",
+        "sections": [
+          {
+            "name": "Mountain Village Tunnel Grotto Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_CHEST"],
+            "chest_unopened_img": "images/icons/chest.png"
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1644, "y": 1964 }
+        ]
+      },
+      {
+        "name": "Goron Racetrack Filler",
+        "sections": [
+          {
+            "name": "Goron Racetrack Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_12"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_13"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_14"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_15"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_16"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_17"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_18"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_19"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_20"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_21"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_22"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_23"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_24"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_25"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_26"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_27"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_28"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_29"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Pot 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_POT_30"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_05"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_06"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_07"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_08"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_09"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Goron Racetrack Tree 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_RACETRACK_TREE_10"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1939, "y": 393 }
+        ]
+      },
+      {
+        "name": "Goron Shrine Filler",
+        "sections": [
+          {
+            "name": "Goron Shrine Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Goron Shrine Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_SHRINE_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2304, "y": 505 }
+        ]
+      },
+      {
+        "name": "Goron Village Filler",
+        "sections": [
+          {
+            "name": "Goron Village Large Crate",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_CRATE"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2353, "y": 442 }
+        ]
+      },
+      {
+        "name": "Snowhead & Mountain Village Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Mountain Village Spring Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Mountain Village Winter Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_WINTER_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Mountain Village Tunnel Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_TUNNEL_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Snowhead Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Path to Mountain Village Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Mountain Village Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Mountain Village Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Mountain Village Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Snowhead Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Snowhead Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Snowhead Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Path to Snowhead Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1840, "y": 631 }
+        ]
+      },
+      {
+        "name": "Twin Islands Filler",
+        "sections": [
+          {
+            "name": "Twin Islands Ramp Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Ramp Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_RAMP_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Spring Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SPRING_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2065, "y": 596 }
         ]
       }
     ]

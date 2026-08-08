@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 279,
-            "y": 1010
+            "x": 140,
+            "y": 505
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 301,
-            "y": 970
+            "x": 150,
+            "y": 485
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 306,
-            "y": 664
+            "x": 153,
+            "y": 332
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 410,
-            "y": 724
+            "x": 205,
+            "y": 362
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 975,
-            "y": 632
+            "x": 488,
+            "y": 316
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1052,
-            "y": 596
+            "x": 526,
+            "y": 298
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 200,
-            "y": 696
+            "x": 100,
+            "y": 348
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 464,
-            "y": 784
+            "x": 232,
+            "y": 392
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1165,
-            "y": 974
+            "x": 582,
+            "y": 487
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 3,
-            "y": 919
+            "x": 2,
+            "y": 460
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 27,
-            "y": 718
+            "x": 14,
+            "y": 359
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1,
-            "y": 811
+            "x": 0,
+            "y": 406
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 804,
-            "y": 844
+            "x": 402,
+            "y": 422
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 892,
-            "y": 711
+            "x": 446,
+            "y": 356
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1291,
-            "y": 753
+            "x": 646,
+            "y": 376
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1241,
-            "y": 723
+            "x": 620,
+            "y": 362
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 523,
-            "y": 826
+            "x": 262,
+            "y": 413
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 605,
-            "y": 632
+            "x": 302,
+            "y": 316
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 605,
-            "y": 772
+            "x": 302,
+            "y": 386
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 625,
-            "y": 545
+            "x": 312,
+            "y": 272
           }
         ]
       },
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1254,
-            "y": 479
+            "x": 627,
+            "y": 240
           }
         ]
       },
@@ -327,8 +327,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 266,
-            "y": 523
+            "x": 133,
+            "y": 262
           }
         ]
       },
@@ -342,8 +342,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 392,
-            "y": 451
+            "x": 196,
+            "y": 226
           }
         ]
       },
@@ -357,8 +357,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1052,
-            "y": 415
+            "x": 526,
+            "y": 208
           }
         ]
       },
@@ -372,8 +372,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1051,
-            "y": 484
+            "x": 526,
+            "y": 242
           }
         ]
       },
@@ -387,8 +387,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 961,
-            "y": 103
+            "x": 480,
+            "y": 52
           }
         ]
       },
@@ -402,8 +402,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1101,
-            "y": 201
+            "x": 550,
+            "y": 100
           }
         ]
       },
@@ -423,8 +423,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1051,
-            "y": 107
+            "x": 526,
+            "y": 54
           }
         ]
       },
@@ -438,8 +438,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 1107,
-            "y": 42
+            "x": 554,
+            "y": 21
           }
         ]
       }

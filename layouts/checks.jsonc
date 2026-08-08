@@ -1,0 +1,452 @@
+{
+ "checks_clock_town_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_clock_town_north_tingle_map_01",
+      "loc_clock_town_north_tingle_map_02",
+      "loc_curiosity_shop_special_item",
+      "loc_hags_potion_shop_item_01",
+      "loc_hags_potion_shop_item_02",
+      "loc_hags_potion_shop_item_03",
+      "loc_hags_potion_shop_kotake",
+      "loc_kafeis_hideout_keaton_mask"
+     ],
+     [
+      "loc_kafeis_hideout_letter_to_mama",
+      "loc_kafeis_hideout_pendant_of_memories",
+      "loc_stock_pot_inn_grandma_long_story",
+      "loc_stock_pot_inn_grandma_short_story",
+      "loc_clock_town_laundry_frog",
+      "loc_enemy_drop_skulltula",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_termina_field_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_romani_ranch_grog",
+      "loc_termina_field_kamaro_mask",
+      "loc_enemy_drop_dodongo",
+      "loc_enemy_drop_peahat",
+      "loc_enemy_drop_skullwalltula",
+      "loc_enemy_drop_takkuri",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_southern_swamp_woodfall_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_deku_shrine_mask_of_scents",
+      "loc_southern_swamp_frog",
+      "loc_enemy_drop_dragonfly",
+      "loc_enemy_drop_mad_scrub",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_woodfall_temple_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_woodfall_temple_gekko_frog",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_swamp_spider_house_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_swamp_skulltula_gold_room_hive",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_snowhead_mountain_village_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_mountain_village_frog_choir",
+      "loc_path_to_goron_village_lullaby_intro",
+      "loc_twin_islands_tingle_map_01",
+      "loc_twin_islands_tingle_map_02",
+      "loc_enemy_drop_boe",
+      "loc_enemy_drop_snapper",
+      "loc_enemy_drop_tektite",
+      "loc_enemy_drop_wolfos"
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_snowhead_temple_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_enemy_drop_eeno",
+      "loc_enemy_drop_flying_pot",
+      "loc_enemy_drop_red_bubble",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_great_bay_coast_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_great_bay_coast_tingle_map_01",
+      "loc_great_bay_coast_tingle_map_02",
+      "loc_enemy_drop_deep_python",
+      "loc_enemy_drop_giant_bee",
+      "loc_enemy_drop_leever",
+      "loc_enemy_drop_like_like",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_great_bay_temple_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_great_bay_temple_sf_map_room_pot",
+      "loc_great_bay_temple_gekko_frog",
+      "loc_enemy_drop_bio_deku_baba",
+      "loc_enemy_drop_chuchu",
+      "loc_enemy_drop_desbreko",
+      "loc_enemy_drop_gekko",
+      "loc_enemy_drop_octorok",
+      "loc_enemy_drop_shellblade"
+     ],
+     [
+      "loc_enemy_drop_skullfish",
+      "loc_enemy_drop_wart",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_ocean_spider_house_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_ocean_skulltula_2nd_room_behind_skull_01",
+      "loc_ocean_skulltula_2nd_room_behind_skull_02",
+      "loc_ocean_skulltula_2nd_room_ceiling_edge",
+      "loc_ocean_skulltula_2nd_room_ceiling_plank",
+      "loc_ocean_skulltula_2nd_room_jar",
+      "loc_ocean_skulltula_2nd_room_lower_pot",
+      "loc_ocean_skulltula_2nd_room_upper_pot",
+      "loc_ocean_skulltula_2nd_room_webbed_hole"
+     ],
+     [
+      "loc_ocean_skulltula_2nd_room_webbed_pot",
+      "loc_ocean_skulltula_entrance_left_wall",
+      "loc_ocean_skulltula_entrance_right_wall",
+      "loc_ocean_skulltula_entrance_web",
+      "loc_ocean_skulltula_storage_room_behind_boat",
+      "loc_ocean_skulltula_storage_room_behind_crate",
+      "loc_ocean_skulltula_storage_room_jar",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_pirates_fortress_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_enemy_drop_pirate",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_ikana_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_ikana_canyon_tingle_map_02",
+      "loc_enemy_drop_bad_bat",
+      "loc_enemy_drop_beamos",
+      "loc_enemy_drop_blue_bubble",
+      "loc_enemy_drop_captain_keeta",
+      "loc_enemy_drop_deku_baba",
+      "loc_enemy_drop_dexihand",
+      "loc_enemy_drop_floormaster"
+     ],
+     [
+      "loc_enemy_drop_freezard",
+      "loc_enemy_drop_garo",
+      "loc_enemy_drop_guay",
+      "loc_enemy_drop_igos_du_ikana",
+      "loc_enemy_drop_iron_knuckle",
+      "loc_enemy_drop_keese",
+      "loc_enemy_drop_mini_baba",
+      "loc_enemy_drop_nejiron"
+     ],
+     [
+      "loc_enemy_drop_poe_sister",
+      "loc_enemy_drop_real_bombchu",
+      "loc_enemy_drop_redead",
+      "loc_enemy_drop_stalchild",
+      "loc_enemy_drop_wallmaster",
+      "loc_enemy_drop_wizrobe",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_stone_tower_temple_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_enemy_drop_armos",
+      "loc_enemy_drop_death_armos",
+      "loc_enemy_drop_eyegore",
+      "loc_enemy_drop_gomess",
+      "loc_enemy_drop_hiploop",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_romani_ranch_milk_road_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_romani_ranch_eponas_song",
+      "loc_enemy_drop_alien",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_moon_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_enemy_drop_dinolfos",
+      "loc_enemy_drop_garo_master",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ },
+ "checks_misc_uncategorized_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "margin": "1,1",
+  "content": [
+   {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "1,1",
+    "rows": [
+     [
+      "loc_starting_item_deku_mask",
+      "loc_starting_item_song_of_healing",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  ]
+ }
+}

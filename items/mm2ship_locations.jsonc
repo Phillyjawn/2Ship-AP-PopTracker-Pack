@@ -1,0 +1,614 @@
+[
+ {
+  "name": "Clock Town North Tingle Map 01",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_clock_town_north_tingle_map_01"
+ },
+ {
+  "name": "Clock Town North Tingle Map 02",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_clock_town_north_tingle_map_02"
+ },
+ {
+  "name": "Curiosity Shop Special Item",
+  "type": "toggle",
+  "img": "images/icons/trading_post.png",
+  "codes": "loc_curiosity_shop_special_item"
+ },
+ {
+  "name": "Hags Potion Shop Item 01",
+  "type": "toggle",
+  "img": "images/icons/trading_post.png",
+  "codes": "loc_hags_potion_shop_item_01"
+ },
+ {
+  "name": "Hags Potion Shop Item 02",
+  "type": "toggle",
+  "img": "images/icons/trading_post.png",
+  "codes": "loc_hags_potion_shop_item_02"
+ },
+ {
+  "name": "Hags Potion Shop Item 03",
+  "type": "toggle",
+  "img": "images/icons/trading_post.png",
+  "codes": "loc_hags_potion_shop_item_03"
+ },
+ {
+  "name": "Hags Potion Shop Kotake",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_hags_potion_shop_kotake"
+ },
+ {
+  "name": "Kafeis Hideout Keaton Mask",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_kafeis_hideout_keaton_mask"
+ },
+ {
+  "name": "Kafeis Hideout Letter to Mama",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_kafeis_hideout_letter_to_mama"
+ },
+ {
+  "name": "Kafeis Hideout Pendant of Memories",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_kafeis_hideout_pendant_of_memories"
+ },
+ {
+  "name": "Stock Pot Inn Grandma Long Story",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_stock_pot_inn_grandma_long_story"
+ },
+ {
+  "name": "Stock Pot Inn Grandma Short Story",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_stock_pot_inn_grandma_short_story"
+ },
+ {
+  "name": "Clock Town Laundry Frog",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_clock_town_laundry_frog"
+ },
+ {
+  "name": "Enemy Drop Skulltula",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_skulltula"
+ },
+ {
+  "name": "Romani Ranch Grog",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_romani_ranch_grog"
+ },
+ {
+  "name": "Termina Field Kamaro Mask",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_termina_field_kamaro_mask"
+ },
+ {
+  "name": "Enemy Drop Dodongo",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_dodongo"
+ },
+ {
+  "name": "Enemy Drop Peahat",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_peahat"
+ },
+ {
+  "name": "Enemy Drop Skullwalltula",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_skullwalltula"
+ },
+ {
+  "name": "Enemy Drop Takkuri",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_takkuri"
+ },
+ {
+  "name": "Deku Shrine Mask of Scents",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_deku_shrine_mask_of_scents"
+ },
+ {
+  "name": "Southern Swamp Frog",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_southern_swamp_frog"
+ },
+ {
+  "name": "Enemy Drop Dragonfly",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_dragonfly"
+ },
+ {
+  "name": "Enemy Drop Mad Scrub",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_mad_scrub"
+ },
+ {
+  "name": "Woodfall Temple Gekko Frog",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_woodfall_temple_gekko_frog"
+ },
+ {
+  "name": "Swamp Skulltula Gold Room Hive",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_swamp_skulltula_gold_room_hive"
+ },
+ {
+  "name": "Mountain Village Frog Choir",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_mountain_village_frog_choir"
+ },
+ {
+  "name": "Path to Goron Village Lullaby Intro",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_path_to_goron_village_lullaby_intro"
+ },
+ {
+  "name": "Twin Islands Tingle Map 01",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_twin_islands_tingle_map_01"
+ },
+ {
+  "name": "Twin Islands Tingle Map 02",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_twin_islands_tingle_map_02"
+ },
+ {
+  "name": "Enemy Drop Boe",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_boe"
+ },
+ {
+  "name": "Enemy Drop Snapper",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_snapper"
+ },
+ {
+  "name": "Enemy Drop Tektite",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_tektite"
+ },
+ {
+  "name": "Enemy Drop Wolfos",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_wolfos"
+ },
+ {
+  "name": "Enemy Drop Eeno",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_eeno"
+ },
+ {
+  "name": "Enemy Drop Flying Pot",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_flying_pot"
+ },
+ {
+  "name": "Enemy Drop Red Bubble",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_red_bubble"
+ },
+ {
+  "name": "Great Bay Coast Tingle Map 01",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_great_bay_coast_tingle_map_01"
+ },
+ {
+  "name": "Great Bay Coast Tingle Map 02",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_great_bay_coast_tingle_map_02"
+ },
+ {
+  "name": "Enemy Drop Deep Python",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_deep_python"
+ },
+ {
+  "name": "Enemy Drop Giant Bee",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_giant_bee"
+ },
+ {
+  "name": "Enemy Drop Leever",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_leever"
+ },
+ {
+  "name": "Enemy Drop Like Like",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_like_like"
+ },
+ {
+  "name": "Great Bay Temple Sf Map Room Pot",
+  "type": "toggle",
+  "img": "images/equipment/fairy_grey.png",
+  "codes": "loc_great_bay_temple_sf_map_room_pot"
+ },
+ {
+  "name": "Great Bay Temple Gekko Frog",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_great_bay_temple_gekko_frog"
+ },
+ {
+  "name": "Enemy Drop Bio Deku Baba",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_bio_deku_baba"
+ },
+ {
+  "name": "Enemy Drop Chuchu",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_chuchu"
+ },
+ {
+  "name": "Enemy Drop Desbreko",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_desbreko"
+ },
+ {
+  "name": "Enemy Drop Gekko",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_gekko"
+ },
+ {
+  "name": "Enemy Drop Octorok",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_octorok"
+ },
+ {
+  "name": "Enemy Drop Shellblade",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_shellblade"
+ },
+ {
+  "name": "Enemy Drop Skullfish",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_skullfish"
+ },
+ {
+  "name": "Enemy Drop Wart",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_wart"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Behind Skull 01",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_behind_skull_01"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Behind Skull 02",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_behind_skull_02"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Ceiling Edge",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_ceiling_edge"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Ceiling Plank",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_ceiling_plank"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Jar",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_jar"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Lower Pot",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_lower_pot"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Upper Pot",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_upper_pot"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Webbed Hole",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_webbed_hole"
+ },
+ {
+  "name": "Ocean Skulltula 2nd Room Webbed Pot",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_2nd_room_webbed_pot"
+ },
+ {
+  "name": "Ocean Skulltula Entrance Left Wall",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_entrance_left_wall"
+ },
+ {
+  "name": "Ocean Skulltula Entrance Right Wall",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_entrance_right_wall"
+ },
+ {
+  "name": "Ocean Skulltula Entrance Web",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_entrance_web"
+ },
+ {
+  "name": "Ocean Skulltula Storage Room Behind Boat",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_storage_room_behind_boat"
+ },
+ {
+  "name": "Ocean Skulltula Storage Room Behind Crate",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_storage_room_behind_crate"
+ },
+ {
+  "name": "Ocean Skulltula Storage Room Jar",
+  "type": "toggle",
+  "img": "images/equipment/skull_ss.png",
+  "codes": "loc_ocean_skulltula_storage_room_jar"
+ },
+ {
+  "name": "Enemy Drop Pirate",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_pirate"
+ },
+ {
+  "name": "Ikana Canyon Tingle Map 02",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_ikana_canyon_tingle_map_02"
+ },
+ {
+  "name": "Enemy Drop Bad Bat",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_bad_bat"
+ },
+ {
+  "name": "Enemy Drop Beamos",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_beamos"
+ },
+ {
+  "name": "Enemy Drop Blue Bubble",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_blue_bubble"
+ },
+ {
+  "name": "Enemy Drop Captain Keeta",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_captain_keeta"
+ },
+ {
+  "name": "Enemy Drop Deku Baba",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_deku_baba"
+ },
+ {
+  "name": "Enemy Drop Dexihand",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_dexihand"
+ },
+ {
+  "name": "Enemy Drop Floormaster",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_floormaster"
+ },
+ {
+  "name": "Enemy Drop Freezard",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_freezard"
+ },
+ {
+  "name": "Enemy Drop Garo",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_garo"
+ },
+ {
+  "name": "Enemy Drop Guay",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_guay"
+ },
+ {
+  "name": "Enemy Drop Igos Du Ikana",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_igos_du_ikana"
+ },
+ {
+  "name": "Enemy Drop Iron Knuckle",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_iron_knuckle"
+ },
+ {
+  "name": "Enemy Drop Keese",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_keese"
+ },
+ {
+  "name": "Enemy Drop Mini Baba",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_mini_baba"
+ },
+ {
+  "name": "Enemy Drop Nejiron",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_nejiron"
+ },
+ {
+  "name": "Enemy Drop Poe Sister",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_poe_sister"
+ },
+ {
+  "name": "Enemy Drop Real Bombchu",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_real_bombchu"
+ },
+ {
+  "name": "Enemy Drop Redead",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_redead"
+ },
+ {
+  "name": "Enemy Drop Stalchild",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_stalchild"
+ },
+ {
+  "name": "Enemy Drop Wallmaster",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_wallmaster"
+ },
+ {
+  "name": "Enemy Drop Wizrobe",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_wizrobe"
+ },
+ {
+  "name": "Enemy Drop Armos",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_armos"
+ },
+ {
+  "name": "Enemy Drop Death Armos",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_death_armos"
+ },
+ {
+  "name": "Enemy Drop Eyegore",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_eyegore"
+ },
+ {
+  "name": "Enemy Drop Gomess",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_gomess"
+ },
+ {
+  "name": "Enemy Drop Hiploop",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_hiploop"
+ },
+ {
+  "name": "Romani Ranch Eponas Song",
+  "type": "toggle",
+  "img": "images/equipment/song_time_no_text.png",
+  "codes": "loc_romani_ranch_eponas_song"
+ },
+ {
+  "name": "Enemy Drop Alien",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_alien"
+ },
+ {
+  "name": "Enemy Drop Dinolfos",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_dinolfos"
+ },
+ {
+  "name": "Enemy Drop Garo Master",
+  "type": "toggle",
+  "img": "images/equipment/soul.png",
+  "codes": "loc_enemy_drop_garo_master"
+ },
+ {
+  "name": "Starting Item Deku Mask",
+  "type": "toggle",
+  "img": "images/equipment/unknown.png",
+  "codes": "loc_starting_item_deku_mask"
+ },
+ {
+  "name": "Starting Item Song of Healing",
+  "type": "toggle",
+  "img": "images/equipment/song_time_no_text.png",
+  "codes": "loc_starting_item_song_of_healing"
+ }
+]

@@ -10,17 +10,14 @@
           {
             "name": "Road to Swamp Tree HP",
               "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 537,
-            "y": 389
+            "x": 1883,
+            "y": 1361
           }
         ]
       },
@@ -29,14 +26,15 @@
         "name": "Road to Swamp Grotto Chest",
         "sections": [
           {
-            "name": "Road to Swamp Grotto Chest"
+            "name": "Road to Swamp Grotto Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 389
+            "x": 1840,
+            "y": 1361
           }
         ]
       },
@@ -47,17 +45,19 @@
         "chest_opened_img": "images/icons/archery_grey.png",
         "sections": [
           {
-            "name": "Swamp Shooting Gallery 2120 Points"
+            "name": "Swamp Shooting Gallery 2120 Points",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SHOOTING_GALLERY_HIGH_SCORE"]
           },
           {
-            "name": "Swamp Shooting Gallery 2180 Points"
+            "name": "Swamp Shooting Gallery 2180 Points",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SHOOTING_GALLERY_PERFECT_SCORE"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 571,
-            "y": 390
+            "x": 2009,
+            "y": 1368
           }
         ]
       },
@@ -71,25 +71,19 @@
           {
             "name": "Woodfall Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_woodfall.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TINGLE_MAP_01"]
           },
           {
             "name": "Snowhead Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_snowhead.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TINGLE_MAP_02"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 545,
-            "y": 419
+            "x": 1911,
+            "y": 1473
           }
         ]
       },
@@ -99,29 +93,25 @@
           {
             "name": "Southern Swamp Deku Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["landdeed"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_SCRUB_DEED"]
           },
           {
             "name": "Southern Swamp Deku Scrub Purchase Beans",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
-            "access_rules": [
-              "easy_logic, deku, $can_plant_beans",
-              "normal_logic, deku, $can_plant_beans",
-              "normal_logic, landdeed, moontear, can_plant_beans"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_SCRUB_BEANS"]
           },
           {
             "name": "Southern Swamp Deku Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku, landdeed"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 565,
-            "y": 438
+            "x": 1981,
+            "y": 1536
           }
         ]
       },
@@ -131,24 +121,18 @@
           {
             "name": "Southern Swamp Tour Witch Gift",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": ["redpotion"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TOURIST_INFORMATION_PICTOBOX"]
           },
           {
             "name": "Tour Witch Target Shooting",
             "chest_unopened_img": "images/icons/archery.png",
             "chest_opened_img": "images/icons/archery_grey.png",
-            "access_rules": [
-              "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TOURIST_INFORMATION_ARCHERY"]
           },
           {
             "name": "Tour Guide Winning Picture",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": [
-              "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TOURIST_INFORMATION_GOOD_PHOTO"]
           },
           {
             "name": "Tour Guide Good Picture",
@@ -170,8 +154,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 553,
-            "y": 438
+            "x": 1939,
+            "y": 1536
           }
         ]
       },
@@ -186,8 +170,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 645,
-            "y": 423
+            "x": 2262,
+            "y": 1487
           }
         ]
       },
@@ -223,8 +207,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 580,
-            "y": 454
+            "x": 2037,
+            "y": 1592
           }
         ]
       },
@@ -232,14 +216,15 @@
         "name": "Southern Swamp Mystery Woods Grotto Chest",
         "sections": [
           {
-            "name": "Southern Swamp Mystery Woods Grotto Chest (Day 2)"
+            "name": "Southern Swamp Mystery Woods Grotto Chest (Day 2)",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 650,
-            "y": 440
+            "x": 2283,
+            "y": 1543
           }
         ]
       },
@@ -250,17 +235,14 @@
           {
             "name": "Deku Palace Monkey Song",
               "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
-            "access_rules": [
-              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
-              "normal_logic, ocarina, $can_plant_beans, deku"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_KINGS_CHAMBER_MONKEY"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 497,
-            "y": 555
+            "x": 1742,
+            "y": 1950
           }
         ]
       },
@@ -270,14 +252,15 @@
         "sections": [
           {
             "name": "Deku Palace HP",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_PIECE_OF_HEART"],
               "chest_unopened_img": "images/equipment/heart_piece.png"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 514,
-            "y": 558
+            "x": 1805,
+            "y": 1957
           }
         ]
       },
@@ -287,11 +270,7 @@
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_plant_beans, hookshot",
-              "normal_logic, $can_plant_beans",
-              "normal_logic, hookshot"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_GROTTO_CHEST"]
           },
           {
             "name": "Deku Palace Bean Seller",
@@ -302,8 +281,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 481,
-            "y": 537
+            "x": 1686,
+            "y": 1880
           }
         ]
       },
@@ -314,14 +293,14 @@
           {
             "name": "Southern Swamp Song Tablet",
               "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
-            "access_rules": ["deku"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_SONG_OF_SOARING"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 534,
-            "y": 504
+            "x": 1876,
+            "y": 1767
           }
         ]
       },
@@ -331,14 +310,14 @@
         "sections": [
           {
             "name": "Southern Swamp Near Swamphouse Grotto Chest",
-            "access_rules": ["deku"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 482,
-            "y": 506
+            "x": 1693,
+            "y": 1774
           }
         ]
       },
@@ -347,26 +326,29 @@
         "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
-            "name": "Woodfall Near Owl Statue Chest"
+            "name": "Woodfall Near Owl Statue Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_NEAR_OWL_CHEST"]
           },
           {
-            "name": "Woodfall After Great Fairy Cave Chest"
+            "name": "Woodfall After Great Fairy Cave Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_PIECE_OF_HEART_CHEST"]
           },
           {
-            "name": "Woodfall Near Swamp Entrance Chest"
+            "name": "Woodfall Near Swamp Entrance Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_ENTRANCE_CHEST"]
           },
           {
             "name": "Woodfall Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["$has|fairy_wf|15"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GREAT_FAIRY"]
             //"visibility_rules": ["shuffle_great_fairy_rewards"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 542,
-            "y": 466
+            "x": 1904,
+            "y": 1634
           }
         ]
       },
@@ -387,11 +369,981 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 526,
-            "y": 556
+            "x": 1847,
+            "y": 1950
           }
         ]
+      },
+      {
+        "name": "Southern Swamp Owl Statue",
+        "sections": [
+          {
+            "name": "Southern Swamp Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1840, "y": 1543 }
+        ]
+      },
+      {
+        "name": "Woodfall Owl Statue",
+        "sections": [
+          {
+            "name": "Woodfall Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1833, "y": 1613 }
+        ]
+      },
+      {
+        "name": "Deku Palace Filler",
+        "sections": [
+          {
+            "name": "Deku Palace Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Deku Palace Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1637, "y": 1880 }
+        ]
+      },
+      {
+        "name": "Deku Shrine Filler",
+        "sections": [
+          {
+            "name": "Deku Shrine Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Deku Shrine Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1911, "y": 1929 }
+        ]
+      },
+      {
+        "name": "Southern Swamp & Woodfall Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Southern Swamp Clear Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEAR_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Southern Swamp Clear Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEAR_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Southern Swamp Clear Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEAR_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Woodfall Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Tourist Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_TOURIST_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Tourist Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_TOURIST_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Woods Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_WOODS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Cleared Woods Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_CLEARED_WOODS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Tourist Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_TOURIST_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Tourist Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_TOURIST_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Woods Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_WOODS_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Woods Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_WOODS_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woodfall Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_05"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Road to Southern Swamp Tree 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_06"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1890, "y": 1424 }
+        ]
       }
-    ]      
+    ]
   }
 ]

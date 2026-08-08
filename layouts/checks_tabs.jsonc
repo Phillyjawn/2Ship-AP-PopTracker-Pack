@@ -1,0 +1,119 @@
+{
+ "checks_tabs": {
+  "type": "tabbed",
+  "tabs": [
+   {
+    "title": "Clock Town",
+    "content": {
+     "type": "layout",
+     "key": "checks_clock_town_grid"
+    }
+   },
+   {
+    "title": "Termina Field",
+    "content": {
+     "type": "layout",
+     "key": "checks_termina_field_grid"
+    }
+   },
+   {
+    "title": "Southern Swamp & Woodfall",
+    "content": {
+     "type": "layout",
+     "key": "checks_southern_swamp_woodfall_grid"
+    }
+   },
+   {
+    "title": "Woodfall Temple",
+    "content": {
+     "type": "layout",
+     "key": "checks_woodfall_temple_grid"
+    }
+   },
+   {
+    "title": "Swamp Spider House",
+    "content": {
+     "type": "layout",
+     "key": "checks_swamp_spider_house_grid"
+    }
+   },
+   {
+    "title": "Snowhead & Mountain Village",
+    "content": {
+     "type": "layout",
+     "key": "checks_snowhead_mountain_village_grid"
+    }
+   },
+   {
+    "title": "Snowhead Temple",
+    "content": {
+     "type": "layout",
+     "key": "checks_snowhead_temple_grid"
+    }
+   },
+   {
+    "title": "Great Bay Coast",
+    "content": {
+     "type": "layout",
+     "key": "checks_great_bay_coast_grid"
+    }
+   },
+   {
+    "title": "Great Bay Temple",
+    "content": {
+     "type": "layout",
+     "key": "checks_great_bay_temple_grid"
+    }
+   },
+   {
+    "title": "Ocean Spider House",
+    "content": {
+     "type": "layout",
+     "key": "checks_ocean_spider_house_grid"
+    }
+   },
+   {
+    "title": "Pirates' Fortress",
+    "content": {
+     "type": "layout",
+     "key": "checks_pirates_fortress_grid"
+    }
+   },
+   {
+    "title": "Ikana",
+    "content": {
+     "type": "layout",
+     "key": "checks_ikana_grid"
+    }
+   },
+   {
+    "title": "Stone Tower Temple",
+    "content": {
+     "type": "layout",
+     "key": "checks_stone_tower_temple_grid"
+    }
+   },
+   {
+    "title": "Romani Ranch & Milk Road",
+    "content": {
+     "type": "layout",
+     "key": "checks_romani_ranch_milk_road_grid"
+    }
+   },
+   {
+    "title": "Moon",
+    "content": {
+     "type": "layout",
+     "key": "checks_moon_grid"
+    }
+   },
+   {
+    "title": "Misc / Uncategorized",
+    "content": {
+     "type": "layout",
+     "key": "checks_misc_uncategorized_grid"
+    }
+   }
+  ]
+ }
+}

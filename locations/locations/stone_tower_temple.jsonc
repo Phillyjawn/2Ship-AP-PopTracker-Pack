@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 306,
-            "y": 826
+            "x": 153,
+            "y": 413
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 306,
-            "y": 866
+            "x": 153,
+            "y": 433
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 58,
-            "y": 1543
+            "x": 29,
+            "y": 772
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 13,
-            "y": 1397
+            "x": 6,
+            "y": 698
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 58,
-            "y": 1439
+            "x": 29,
+            "y": 720
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 277,
-            "y": 564
+            "x": 138,
+            "y": 282
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 409,
-            "y": 649
+            "x": 204,
+            "y": 324
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 540,
-            "y": 1520
+            "x": 270,
+            "y": 760
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 470,
-            "y": 836
+            "x": 235,
+            "y": 418
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 666,
-            "y": 436
+            "x": 333,
+            "y": 218
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 554,
-            "y": 414
+            "x": 277,
+            "y": 207
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 480,
-            "y": 156
+            "x": 240,
+            "y": 78
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 483,
-            "y": 253
+            "x": 242,
+            "y": 126
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 305,
-            "y": 253
+            "x": 152,
+            "y": 126
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 305,
-            "y": 496
+            "x": 152,
+            "y": 248
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 305,
-            "y": 590
+            "x": 152,
+            "y": 295
           }
         ]
       }
@@ -257,8 +257,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1103,
-            "y": 848
+            "x": 552,
+            "y": 424
           }
         ]
       },
@@ -272,8 +272,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1337,
-            "y": 1518
+            "x": 668,
+            "y": 759
           }
         ]
       },
@@ -287,8 +287,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1337,
-            "y": 649
+            "x": 668,
+            "y": 324
           }
         ]
       },
@@ -302,8 +302,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1337,
-            "y": 759
+            "x": 668,
+            "y": 380
           }
         ]
       },
@@ -317,8 +317,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 811,
-            "y": 1396
+            "x": 406,
+            "y": 698
           }
         ]
       },
@@ -332,8 +332,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 846,
-            "y": 781
+            "x": 423,
+            "y": 390
           }
         ]
       },
@@ -347,8 +347,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1664,
-            "y": 650
+            "x": 832,
+            "y": 325
           }
         ]
       },
@@ -362,8 +362,8 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1103,
-            "y": 692
+            "x": 552,
+            "y": 346
           }
         ]
       },
@@ -383,9 +383,569 @@
         "map_locations": [
           {
             "map": "stone_tower_temple",
-            "x": 1099,
-            "y": 255
+            "x": 550,
+            "y": 128
           }
+        ]
+      },
+      {
+        "name": "Stone Tower Temple Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Stone Tower Temple Center Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_CENTER_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Center Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_CENTER_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Center Small Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_CENTER_SMALL_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Entrance Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Entrance Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Entrance Small Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE_SMALL_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Entrance Small Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE_SMALL_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Entrance Small Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE_SMALL_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Gomess Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_GOMESS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Gomess Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_GOMESS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Gomess Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_GOMESS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Gomess Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_GOMESS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Path to Gomess Small Crate 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PATH_TO_GOMESS_SMALL_CRATE_06"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Poe Maze Side Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_POE_MAZE_SIDE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Poe Maze Side Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_POE_MAZE_SIDE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Poe Wizzrobe Side Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_POE_WIZZROBE_SIDE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Poe Wizzrobe Side Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_POE_WIZZROBE_SIDE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Bridge Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_BRIDGE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Bridge Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_BRIDGE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Ledge Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_LEDGE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Ledge Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_LEDGE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Ledge Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_LEDGE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Updrafts Ledge Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_UPDRAFTS_LEDGE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wizzrobe Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIZZROBE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wizzrobe Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIZZROBE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wizzrobe Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIZZROBE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wizzrobe Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIZZROBE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wizzrobe Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIZZROBE_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room After Block Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_AFTER_BLOCK_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room After Block Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_AFTER_BLOCK_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room After Block Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_AFTER_BLOCK_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room After Block Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_AFTER_BLOCK_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Lava Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_LAVA_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Mirror Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_MIRROR_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Mirror Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_MIRROR_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Mirrors Room Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_MIRRORS_ROOM_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Mirrors Room Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_MIRRORS_ROOM_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Large Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_LARGE_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Large Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_LARGE_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Large Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_LARGE_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Bridge Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_BRIDGE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Bridge Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_BRIDGE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Underwater Lower Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_UNDERWATER_LOWER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Underwater Lower Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_UNDERWATER_LOWER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Underwater Lower Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_UNDERWATER_LOWER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Underwater Upper Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_UNDERWATER_UPPER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Water Room Underwater Upper Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WATER_ROOM_UNDERWATER_UPPER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Entrance Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_ENTRANCE_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Switch Room Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "stone_tower_temple", "x": 10, "y": 770 }
         ]
       }
     ]

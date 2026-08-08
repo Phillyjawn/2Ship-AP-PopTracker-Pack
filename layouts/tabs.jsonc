@@ -13,6 +13,13 @@
                 "type": "map",
                 "maps": ["overworld"]
               }
+            },
+            {
+              "title": "Clock Town",
+              "content": {
+                "type": "map",
+                "maps": ["clock_town"]
+              }
             }
           ]
         }
@@ -58,6 +65,27 @@
               }
             }
           ]
+        }
+      },
+      {
+        "title": "Checks",
+        "content": {
+          "type": "layout",
+          "key": "checks_tabs"
+        }
+      },
+      {
+        "title": "Souls",
+        "content": {
+          "type": "layout",
+          "key": "vertical_souls_grid"
+        }
+      },
+      {
+        "title": "Misc",
+        "content": {
+          "type": "layout",
+          "key": "vertical_misc_grid"
         }
       }
     ]

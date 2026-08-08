@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 476,
-            "y": 402
+            "x": 238,
+            "y": 201
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 574,
-            "y": 247
+            "x": 287,
+            "y": 124
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 563,
-            "y": 368
+            "x": 282,
+            "y": 184
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 158,
-            "y": 428
+            "x": 79,
+            "y": 214
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 262,
-            "y": 512
+            "x": 131,
+            "y": 256
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 86,
-            "y": 441
+            "x": 43,
+            "y": 220
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 150,
-            "y": 259
+            "x": 75,
+            "y": 130
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 209,
-            "y": 383
+            "x": 104,
+            "y": 192
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 182,
-            "y": 20
+            "x": 91,
+            "y": 10
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 471,
-            "y": 1073
+            "x": 236,
+            "y": 536
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 939,
-            "y": 153
+            "x": 470,
+            "y": 76
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1282,
-            "y": 220
+            "x": 641,
+            "y": 110
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1243,
-            "y": 199
+            "x": 622,
+            "y": 100
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1200,
-            "y": 228
+            "x": 600,
+            "y": 114
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 804,
-            "y": 364
+            "x": 402,
+            "y": 182
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 864,
-            "y": 498
+            "x": 432,
+            "y": 249
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1003,
-            "y": 473
+            "x": 502,
+            "y": 236
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 837,
-            "y": 258
+            "x": 418,
+            "y": 129
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 777,
-            "y": 818
+            "x": 388,
+            "y": 409
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 869,
-            "y": 1093
+            "x": 434,
+            "y": 546
           }
         ]
       },
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 807,
-            "y": 1138
+            "x": 404,
+            "y": 569
           }
         ]
       },
@@ -327,8 +327,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1155,
-            "y": 1008
+            "x": 578,
+            "y": 504
           }
         ]
       },
@@ -348,8 +348,8 @@
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1018,
-            "y": 1004
+            "x": 509,
+            "y": 502
           }
         ]
       }

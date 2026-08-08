@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Soul of Aliens",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_alien"
+  },
+  {
+    "name": "Soul of Armos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_armos"
+  },
+  {
+    "name": "Soul of Bad Bats",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_bad_bat"
+  },
+  {
+    "name": "Soul of Beamos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_beamos"
+  },
+  {
+    "name": "Soul of Boes",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_boe"
+  },
+  {
+    "name": "Soul of Bubbles",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_bubble"
+  },
+  {
+    "name": "Soul of Captain Keeta",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_captain_keeta"
+  },
+  {
+    "name": "Soul of Chuchus",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_chuchu"
+  },
+  {
+    "name": "Soul of Death Armos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_death_armos"
+  },
+  {
+    "name": "Soul of Deep Pythons",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_deep_python"
+  },
+  {
+    "name": "Soul of Deku Babas",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_deku_baba"
+  },
+  {
+    "name": "Soul of Dexihands",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_dexihand"
+  },
+  {
+    "name": "Soul of Dinolfos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_dinolfos"
+  },
+  {
+    "name": "Soul of Dodongos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_dodongo"
+  },
+  {
+    "name": "Soul of Dragonflies",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_dragonfly"
+  },
+  {
+    "name": "Soul of Eenos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_eeno"
+  },
+  {
+    "name": "Soul of Eyegores",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_eyegore"
+  },
+  {
+    "name": "Soul of Freezards",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_freezard"
+  },
+  {
+    "name": "Soul of Garos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_garo"
+  },
+  {
+    "name": "Soul of Gekkos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_gekko"
+  },
+  {
+    "name": "Soul of Giant Bees",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_giant_bee"
+  },
+  {
+    "name": "Soul of Gomess",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_gomess"
+  },
+  {
+    "name": "Soul of Guays",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_guay"
+  },
+  {
+    "name": "Soul of Hiploops",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_hiploop"
+  },
+  {
+    "name": "Soul of Igos du Ikana",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_igos_du_ikana"
+  },
+  {
+    "name": "Soul of Iron Knuckles",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_iron_knuckle"
+  },
+  {
+    "name": "Soul of Keese",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_keese"
+  },
+  {
+    "name": "Soul of Leevers",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_leever"
+  },
+  {
+    "name": "Soul of Like Likes",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_like_like"
+  },
+  {
+    "name": "Soul of Mad Scrubs",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_mad_scrub"
+  },
+  {
+    "name": "Soul of Nejirons",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_nejiron"
+  },
+  {
+    "name": "Soul of Octoroks",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_octorok"
+  },
+  {
+    "name": "Soul of Peahats",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_peahat"
+  },
+  {
+    "name": "Soul of Pirates",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_pirate"
+  },
+  {
+    "name": "Soul of Poes",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_poe"
+  },
+  {
+    "name": "Soul of Redeads",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_redead"
+  },
+  {
+    "name": "Soul of Shellblades",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_shellblade"
+  },
+  {
+    "name": "Soul of Skullfish",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_skullfish"
+  },
+  {
+    "name": "Soul of Skulltulas",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_skulltula"
+  },
+  {
+    "name": "Soul of Snappers",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_snapper"
+  },
+  {
+    "name": "Soul of Stalchildren",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_stalchild"
+  },
+  {
+    "name": "Soul of Takkuri",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_takkuri"
+  },
+  {
+    "name": "Soul of Tektites",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_tektite"
+  },
+  {
+    "name": "Soul of Wallmasters",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_wallmaster"
+  },
+  {
+    "name": "Soul of Warts",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_wart"
+  },
+  {
+    "name": "Soul of Wizrobes",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_wizrobe"
+  },
+  {
+    "name": "Soul of Wolfos",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_wolfos"
+  },
+  {
+    "name": "Soul of Odolwa",
+    "type": "toggle",
+    "img": "images/equipment/odolwa.png",
+    "codes": "soul_boss_odolwa"
+  },
+  {
+    "name": "Soul of Goht",
+    "type": "toggle",
+    "img": "images/equipment/goht.png",
+    "codes": "soul_boss_goht"
+  },
+  {
+    "name": "Soul of Gyorg",
+    "type": "toggle",
+    "img": "images/equipment/gyorg.png",
+    "codes": "soul_boss_gyorg"
+  },
+  {
+    "name": "Soul of Twinmold",
+    "type": "toggle",
+    "img": "images/equipment/twinmold.png",
+    "codes": "soul_boss_twinmold"
+  },
+  {
+    "name": "Soul of Majora",
+    "type": "toggle",
+    "img": "images/equipment/soul.png",
+    "codes": "soul_boss_majora"
+  }
+]

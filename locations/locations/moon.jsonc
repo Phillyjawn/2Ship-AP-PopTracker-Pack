@@ -11,14 +11,14 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["deku"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_DEKU_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 572
+            "x": 393,
+            "y": 2006
           }
         ]
       },
@@ -28,14 +28,14 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["goron, magic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 532
+            "x": 393,
+            "y": 1866
           }
         ]
       },
@@ -45,14 +45,14 @@
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_ZORA_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 91,
-            "y": 552
+            "x": 323,
+            "y": 1936
           }
         ]
       },
@@ -61,29 +61,23 @@
         "sections": [
           {
             "name": "Garo Master Chest",
-            "access_rules": [
-              "easy_logic, fiercedeity, magic, fairysword, gildedsword, bow, hookshot",
-              "normal_logic, $can_smack_hard, hookshot"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_GARO_MASTER_CHEST"]
           },
           {
             "name": "Iron Knuckle Chest",
-            "access_rules": ["@Link Trial/Garo Master Chest"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_IRON_KNUCKLE_CHEST"]
           },
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, @Link Trial/Garo Master Chest, $baby_has_explosives, $can_play_healing, $can_play_eponas",
-              "normal_logic, @Link Trial/Garo Master Chest, bombchu_bag, bow"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_PIECE_OF_HEART"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 131,
-            "y": 552
+            "x": 464,
+            "y": 1936
           }
         ]
       },
@@ -93,15 +87,173 @@
           {
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
-            "access_rules": ["postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_FIERCE_DEITY_MASK"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 111,
-            "y": 552
+            "x": 393,
+            "y": 1936
           }
+        ]
+      },
+      {
+        "name": "Moon Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Moon Majora Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_MAJORA_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Majora Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_MAJORA_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Early Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_EARLY_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Early Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_EARLY_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Early Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_EARLY_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Early Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_EARLY_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Goron Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_GORON_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Moon Trial Link Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOON_TRIAL_LINK_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1756, "y": 1978 }
         ]
       }
     ]

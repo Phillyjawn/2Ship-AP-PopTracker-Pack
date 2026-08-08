@@ -1,0 +1,89 @@
+{
+  "vertical_souls_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "soul_alien",
+            "soul_armos",
+            "soul_bad_bat",
+            "soul_beamos",
+            "soul_boe",
+            "soul_bubble"
+          ],
+          [
+            "soul_captain_keeta",
+            "soul_chuchu",
+            "soul_death_armos",
+            "soul_deep_python",
+            "soul_deku_baba",
+            "soul_dexihand"
+          ],
+          [
+            "soul_dinolfos",
+            "soul_dodongo",
+            "soul_dragonfly",
+            "soul_eeno",
+            "soul_eyegore",
+            "soul_freezard"
+          ],
+          [
+            "soul_garo",
+            "soul_gekko",
+            "soul_giant_bee",
+            "soul_gomess",
+            "soul_guay",
+            "soul_hiploop"
+          ],
+          [
+            "soul_igos_du_ikana",
+            "soul_iron_knuckle",
+            "soul_keese",
+            "soul_leever",
+            "soul_like_like",
+            "soul_mad_scrub"
+          ],
+          [
+            "soul_nejiron",
+            "soul_octorok",
+            "soul_peahat",
+            "soul_pirate",
+            "soul_poe",
+            "soul_redead"
+          ],
+          [
+            "soul_shellblade",
+            "soul_skullfish",
+            "soul_skulltula",
+            "soul_snapper",
+            "soul_stalchild",
+            "soul_takkuri"
+          ],
+          [
+            "soul_tektite",
+            "soul_wallmaster",
+            "soul_wart",
+            "soul_wizrobe",
+            "soul_wolfos",
+            "soul_boss_odolwa"
+          ],
+          [
+            "soul_boss_goht",
+            "soul_boss_gyorg",
+            "soul_boss_twinmold",
+            "soul_boss_majora",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+}

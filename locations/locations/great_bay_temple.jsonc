@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 373,
-            "y": 966
+            "x": 186,
+            "y": 483
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 271,
-            "y": 827
+            "x": 136,
+            "y": 414
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 373,
-            "y": 830
+            "x": 186,
+            "y": 415
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 272,
-            "y": 475
+            "x": 136,
+            "y": 238
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 371,
-            "y": 476
+            "x": 186,
+            "y": 238
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 586,
-            "y": 638
+            "x": 293,
+            "y": 319
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 652,
-            "y": 666
+            "x": 326,
+            "y": 333
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 731,
-            "y": 457
+            "x": 366,
+            "y": 228
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 505,
-            "y": 268
+            "x": 252,
+            "y": 134
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 555,
-            "y": 278
+            "x": 278,
+            "y": 139
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 627,
-            "y": 233
+            "x": 314,
+            "y": 116
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 633,
-            "y": 312
+            "x": 316,
+            "y": 156
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 81,
-            "y": 115
+            "x": 40,
+            "y": 58
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 371,
-            "y": 237
+            "x": 186,
+            "y": 118
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 891,
-            "y": 234
+            "x": 446,
+            "y": 117
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 977,
-            "y": 374
+            "x": 488,
+            "y": 187
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 794,
-            "y": 533
+            "x": 397,
+            "y": 266
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 763,
-            "y": 622
+            "x": 382,
+            "y": 311
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 1160,
-            "y": 1172
+            "x": 580,
+            "y": 586
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 1045,
-            "y": 1095
+            "x": 522,
+            "y": 548
           }
         ]
       },
@@ -318,9 +318,667 @@
         "map_locations": [
           {
             "map": "great_bay_temple",
-            "x": 994,
-            "y": 1156
+            "x": 497,
+            "y": 578
           }
+        ]
+      },
+      {
+        "name": "Great Bay Temple Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Great Bay Temple Before Wart Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Before Wart Pot 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BEFORE_WART_POT_12"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Underwater Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_UNDERWATER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Underwater Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_UNDERWATER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Underwater Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_UNDERWATER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Boss Underwater Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_BOSS_UNDERWATER_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Central Room Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_CENTRAL_ROOM_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Central Room Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_CENTRAL_ROOM_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Surface Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_SURFACE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Surface Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_SURFACE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Surface Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_SURFACE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Surface Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_SURFACE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Water Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_WATER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Water Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_WATER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Water Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_WATER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_06"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_07"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_08"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_09"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_10"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_11"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_12"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_13"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_14"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_15"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Gekko Small Crate 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GEKKO_SMALL_CRATE_16"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_06"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Large Crate 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LARGE_CRATE_07"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Lower Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_LOWER_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Upper Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_UPPER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 3 Upper Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_3_UPPER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Surface Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_SURFACE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Surface Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_SURFACE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Surface Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_SURFACE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Map Room Water Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_MAP_ROOM_WATER_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Pre Boss Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_PRE_BOSS_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Before Wart Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_BEFORE_WART_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Before Wart Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_BEFORE_WART_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Before Wart Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_BEFORE_WART_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Before Wart Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_BEFORE_WART_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Large Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_LARGE_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Large Crate 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_LARGE_CRATE_04"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Large Crate 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_LARGE_CRATE_05"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Wart Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "great_bay_temple", "x": 10, "y": 634 }
+        ]
+      },
+      {
+        "name": "Zora Cape Filler",
+        "sections": [
+          {
+            "name": "Zora Cape Near Owl Statue Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_OWL_STATUE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Zora Cape Near Owl Statue Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_OWL_STATUE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Zora Cape Near Owl Statue Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_OWL_STATUE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Zora Cape Near Owl Statue Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_OWL_STATUE_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "great_bay_temple", "x": 26, "y": 634 }
         ]
       }
     ]

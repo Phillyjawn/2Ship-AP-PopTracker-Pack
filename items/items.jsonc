@@ -1,7 +1,7 @@
 [
   {
     "name": "Ocarina of Time",
-    "type": "static",
+    "type": "toggle",
     "img": "images/items/ocarina.png",
     "codes": "ocarina"
   },
@@ -148,13 +148,13 @@
   },
   {
     "name": "Deku Sticks",
-    "type": "static",
+    "type": "toggle",
     "img": "images/items/stick.png",
     "codes": "dekusticks,sticks,ds"
   },
   {
     "name": "Deku Nuts",
-    "type": "static",
+    "type": "toggle",
     "img": "images/items/nut.png",
     "codes": "dekunuts,nuts,dn"
   },

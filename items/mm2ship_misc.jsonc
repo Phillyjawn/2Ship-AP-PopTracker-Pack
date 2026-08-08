@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Ability to Swim",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ability_swim"
+  },
+  {
+    "name": "Blue Frog",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "frog_blue"
+  },
+  {
+    "name": "Cyan Frog",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "frog_cyan"
+  },
+  {
+    "name": "Pink Frog",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "frog_pink"
+  },
+  {
+    "name": "White Frog",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "frog_white"
+  },
+  {
+    "name": "Clock Town Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_clocktown"
+  },
+  {
+    "name": "Great Bay Coast Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_greatbaycoast"
+  },
+  {
+    "name": "Ikana Canyon Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_ikanacanyon"
+  },
+  {
+    "name": "Milk Road Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_milkroad"
+  },
+  {
+    "name": "Mountain Village Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_mountainvillage"
+  },
+  {
+    "name": "Snowhead Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_snowhead"
+  },
+  {
+    "name": "Southern Swamp Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_southernswamp"
+  },
+  {
+    "name": "Stone Tower Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_stonetower"
+  },
+  {
+    "name": "Woodfall Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_woodfall"
+  },
+  {
+    "name": "Zora Cape Owl Statue",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "owl_zoracape"
+  },
+  {
+    "name": "Ocarina Button: A",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ocarina_button_a"
+  },
+  {
+    "name": "Ocarina Button: C-Down",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ocarina_button_cdown"
+  },
+  {
+    "name": "Ocarina Button: C-Right",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ocarina_button_cright"
+  },
+  {
+    "name": "Ocarina Button: C-Left",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ocarina_button_cleft"
+  },
+  {
+    "name": "Ocarina Button: C-Up",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "ocarina_button_cup"
+  },
+  {
+    "name": "Song of Double Time",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "song_double_time"
+  },
+  {
+    "name": "Inverted Song of Time",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "song_inverted_time"
+  },
+  {
+    "name": "Saria's Song",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "song_saria"
+  },
+  {
+    "name": "Sun's Song",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "codes": "song_sun"
+  },
+  {
+    "name": "Piece of the Triforce",
+    "type": "consumable",
+    "img": "images/equipment/unknown.png",
+    "codes": "triforce_piece",
+    "min_quantity": 0,
+    "max_quantity": 100
+  },
+  {
+    "name": "Day 1",
+    "type": "toggle",
+    "img": "images/equipment/sun_day1.png",
+    "codes": "time_day1"
+  },
+  {
+    "name": "Night 1",
+    "type": "toggle",
+    "img": "images/equipment/moon_night1.png",
+    "codes": "time_night1"
+  },
+  {
+    "name": "Day 2",
+    "type": "toggle",
+    "img": "images/equipment/sun_day2.png",
+    "codes": "time_day2"
+  },
+  {
+    "name": "Night 2",
+    "type": "toggle",
+    "img": "images/equipment/moon_night2.png",
+    "codes": "time_night2"
+  },
+  {
+    "name": "Day 3",
+    "type": "toggle",
+    "img": "images/equipment/sun_day3.png",
+    "codes": "time_day3"
+  },
+  {
+    "name": "Night 3",
+    "type": "toggle",
+    "img": "images/equipment/moon_night3.png",
+    "codes": "time_night3"
+  },
+  {
+    "name": "Clock Shuffle Time",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      },
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      },
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      },
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      },
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      },
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "clock_shuffle_time"
+      }
+    ]
+  }
+]

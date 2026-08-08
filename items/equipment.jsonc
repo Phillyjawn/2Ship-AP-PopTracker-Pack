@@ -54,6 +54,11 @@
       {
         "img": "images/equipment/wallet2.png",
         "codes": "giantswallet,wallet2"
+      },
+      {
+        "img": "images/equipment/wallet2.png",
+        "img_mods": "overlay|images/icons/overlay_10.png",
+        "codes": "tycoonswallet,wallet3"
       }
     ]
   },
@@ -102,7 +107,7 @@
   },
   {
     "name": "Song of Time",
-    "type": "static",
+    "type": "toggle",
     "img": "images/equipment/song_time.png",
     "codes": "time,sot"
   },
@@ -185,10 +190,20 @@
   },
   {
     "name": "Goron's Lullaby",
-    "type": "toggle",
+    "type": "progressive",
     "loop": true,
-    "img": "images/equipment/song_lullaby.png",
-    "codes": "goronlullaby,lullaby"
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/equipment/song_lullaby.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/equipment/song_lullaby.png",
+        "img_mods": "overlay|images/icons/overlay_10.png",
+        "codes": "goronlullaby,lullaby"
+      }
+    ]
   },
   {
     "name": "Goron's Lullaby Check",
@@ -454,6 +469,12 @@
     "type": "toggle",
     "img": "images/equipment/boss_key_st.png",
     "codes": "bosskey_st,bk_st"
+  },
+  {
+    "name": "Skeleton Key",
+    "type": "toggle",
+    "img": "images/equipment/small_key_default.png",
+    "codes": "skeleton_key"
   },
   {
     "name":  "Clocktown Stray Fairy",

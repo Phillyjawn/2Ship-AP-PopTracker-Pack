@@ -13,9 +13,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 109,
-              "y": 129
+              "map": "clock_town",
+              "x": 54,
+              "y": 64
             }
           ]
         },
@@ -29,9 +29,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 82,
-              "y": 156
+              "map": "clock_town",
+              "x": 41,
+              "y": 78
             }
           ]
         },
@@ -45,9 +45,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 109,
-              "y": 184
+              "map": "clock_town",
+              "x": 54,
+              "y": 92
             }
           ]
         },
@@ -61,9 +61,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 130,
-              "y": 209
+              "map": "clock_town",
+              "x": 65,
+              "y": 104
             }
           ]
         },
@@ -77,29 +77,29 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 202,
-              "y": 77
+              "map": "clock_town",
+              "x": 101,
+              "y": 38
             },
             {
-              "map": "overworld",
-              "x": 217,
-              "y": 170
+              "map": "clock_town",
+              "x": 108,
+              "y": 85
             },
             {
-              "map": "overworld",
-              "x": 89,
-              "y": 206
+              "map": "clock_town",
+              "x": 44,
+              "y": 103
             },
             {
-              "map": "overworld",
-              "x": 140,
-              "y": 116
-            },
-            {
-              "map": "overworld",
-              "x": 149,
+              "map": "clock_town",
+              "x": 70,
               "y": 58
+            },
+            {
+              "map": "clock_town",
+              "x": 74,
+              "y": 29
             }
           ]
         },
@@ -113,9 +113,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 90,
-              "y": 55
+              "map": "clock_town",
+              "x": 45,
+              "y": 28
             }
           ]
         },
@@ -129,9 +129,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 142,
-              "y": 26
+              "map": "clock_town",
+              "x": 71,
+              "y": 13
             }
           ]
         },
@@ -149,9 +149,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 54,
-              "y": 72
+              "map": "clock_town",
+              "x": 27,
+              "y": 36
             }
           ]
         },
@@ -169,9 +169,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 38,
-              "y": 55
+              "map": "clock_town",
+              "x": 19,
+              "y": 28
             }
           ]
         },
@@ -185,14 +185,14 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 135,
-              "y": 16
+              "map": "clock_town",
+              "x": 68,
+              "y": 8
             },
             {
               "map": "overworld",
-              "x": 453,
-              "y": 364
+              "x": 1588,
+              "y": 1276
             }
           ]
         },
@@ -206,9 +206,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 137,
-              "y": 70
+              "map": "clock_town",
+              "x": 68,
+              "y": 35
             }
           ]
         },
@@ -222,9 +222,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 162,
-              "y": 210
+              "map": "clock_town",
+              "x": 81,
+              "y": 105
             }
           ]
         },
@@ -242,9 +242,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 206,
-              "y": 41
+              "map": "clock_town",
+              "x": 103,
+              "y": 20
             }
           ]
         },
@@ -262,9 +262,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 227,
-              "y": 157
+              "map": "clock_town",
+              "x": 114,
+              "y": 78
             }
           ]
         },
@@ -282,9 +282,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 203,
-              "y": 191
+              "map": "clock_town",
+              "x": 102,
+              "y": 96
             }
           ]
         },
@@ -310,9 +310,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 167,
-              "y": 166
+              "map": "clock_town",
+              "x": 84,
+              "y": 83
             }
           ]
         },
@@ -326,9 +326,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 227,
-              "y": 62
+              "map": "clock_town",
+              "x": 114,
+              "y": 31
             }
           ]
         },
@@ -370,9 +370,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 177,
-              "y": 115
+              "map": "clock_town",
+              "x": 88,
+              "y": 58
             }
           ]
         },
@@ -398,9 +398,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 208,
-              "y": 111
+              "map": "clock_town",
+              "x": 104,
+              "y": 56
             }
           ]
         },
@@ -414,9 +414,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 30,
-              "y": 111
+              "map": "clock_town",
+              "x": 15,
+              "y": 56
             }
           ]
         },
@@ -438,9 +438,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 40,
-              "y": 155
+              "map": "clock_town",
+              "x": 20,
+              "y": 78
             }
           ]
         },
@@ -454,9 +454,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 22,
-              "y": 91
+              "map": "clock_town",
+              "x": 11,
+              "y": 46
             }
           ]
         },
@@ -474,9 +474,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 52,
-              "y": 91
+              "map": "clock_town",
+              "x": 26,
+              "y": 46
             }
           ]
         },
@@ -490,9 +490,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 42,
-              "y": 214
+              "map": "clock_town",
+              "x": 21,
+              "y": 107
             }
           ]
         },
@@ -506,9 +506,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 16,
-              "y": 207
+              "map": "clock_town",
+              "x": 8,
+              "y": 104
             }
           ]
         },
@@ -530,9 +530,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 13,
-              "y": 173
+              "map": "clock_town",
+              "x": 6,
+              "y": 86
             }
           ]
         },
@@ -558,9 +558,9 @@
           ],
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 109,
-              "y": 95
+              "map": "clock_town",
+              "x": 54,
+              "y": 48
             }
           ]
         },
@@ -568,9 +568,9 @@
           "name": "Trading Post Hints",
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 25,
-              "y": 169
+              "map": "clock_town",
+              "x": 12,
+              "y": 84
             }
           ],
           "sections": [
@@ -644,9 +644,9 @@
           "name": "Bomb Shop Hints",
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 13,
-              "y": 148
+              "map": "clock_town",
+              "x": 6,
+              "y": 74
             }
           ],
           "sections": [
@@ -676,9 +676,9 @@
           "name": "Curiosity Shop (10 PM - 6 AM) Hints",
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 42,
-              "y": 182
+              "map": "clock_town",
+              "x": 21,
+              "y": 91
             }
           ],
           "sections": [
@@ -716,9 +716,9 @@
           "name": "Tingle Clock Town Hints",
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 113,
-              "y": 33
+              "map": "clock_town",
+              "x": 56,
+              "y": 16
             }
           ],
           "sections": [
@@ -735,9 +735,9 @@
           "name": "West Clock Town Lottery Hints",
           "map_locations": [
             {
-              "map": "overworld",
-              "x": 47,
-              "y": 129
+              "map": "clock_town",
+              "x": 24,
+              "y": 64
             }
           ],
           "sections": [

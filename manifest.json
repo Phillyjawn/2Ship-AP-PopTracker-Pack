@@ -1,15 +1,14 @@
 ﻿{
-    "name": "Majoras Mask AP",
-    "game_name": "The Legend of Zelda - Majoras Mask",
-    "package_version": "0.9.1",
-    "package_uid": "MM_AP",
+    "name": "2 Ship 2 Harkinian AP",
+    "game_name": "2 Ship 2 Harkinian (MM)",
+    "package_version": "0.1.0",
+    "package_uid": "MM_2SHIP_AP",
     "platform": "Nintendo 64",
-    "author": "Seto10987, G4M3R L1F3",
+    "author": "Seto10987, G4M3R L1F3 (author of the recompiled tracker this was forked from); Archipelago feature developed by ProxySaw; real accessibility logic and mm_2ship integration by Phillyjawn; overworld map art by Nerrel",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "AP Map Tracker",
             "flags": ["ap"]
         }
-    },
-	"versions_url": "https://raw.githubusercontent.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/refs/heads/cube/versions.json"
+    }
 }

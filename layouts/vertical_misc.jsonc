@@ -1,0 +1,57 @@
+{
+  "vertical_misc_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "ability_swim",
+            "frog_blue",
+            "frog_cyan",
+            "frog_pink",
+            "frog_white",
+            "owl_clocktown"
+          ],
+          [
+            "owl_greatbaycoast",
+            "owl_ikanacanyon",
+            "owl_milkroad",
+            "owl_mountainvillage",
+            "owl_snowhead",
+            "owl_southernswamp"
+          ],
+          [
+            "owl_stonetower",
+            "owl_woodfall",
+            "owl_zoracape",
+            "ocarina_button_a",
+            "ocarina_button_cdown",
+            "ocarina_button_cright"
+          ],
+          [
+            "ocarina_button_cleft",
+            "ocarina_button_cup",
+            "song_double_time",
+            "song_inverted_time",
+            "song_saria",
+            "song_sun"
+          ],
+          [
+            "triforce_piece",
+            "clock_shuffle_time",
+            "skeleton_key",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+}

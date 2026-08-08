@@ -68,29 +68,23 @@
     "codes": "shieldless"
   },
   {
-    "name": "Shuffle Regional Maps",
+    "name": "Shuffle Tingle Maps",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
-    "codes": "shuffle_regional_maps",
+    "initial_stage_idx": 0,
+    "codes": "shuffle_tingle_shops",
     "stages": [
       {
         "name": "Vanilla",
         "img": "images/pack_settings/shuffles/shuffle_regional_maps_vanilla.png",
-        "codes": "shuffle_regional_maps_vanilla",
-        "inherit_codes": false
-      },
-      {
-        "name": "Starting",
-        "img": "images/pack_settings/shuffles/shuffle_regional_maps_starting.png",
-        "codes": "shuffle_regional_maps_starting",
+        "codes": "shuffle_tingle_shops_vanilla",
         "inherit_codes": false
       },
       {
         "name": "Anywhere",
         "img": "images/pack_settings/shuffles/shuffle_regional_maps_anywhere.png",
-        "codes": "shuffle_regional_maps_anywhere",
+        "codes": "shuffle_tingle_shops_anywhere",
         "inherit_codes": false
       }
     ]
@@ -209,6 +203,78 @@
     "img": "images/pack_settings/sanities/cowsanity_on.png",
     "disabled_img": "images/pack_settings/sanities/cowsanity_off.png",
     "codes": "cowsanity"
+  },
+  {
+    "name": "Shuffle Owl Statues",
+    "type": "toggle",
+    "img": "images/icons/gossip_stone.png",
+    "disabled_img": "images/icons/gossip_stone.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_owl_statues"
+  },
+  {
+    "name": "Shuffle Grass Drops",
+    "type": "toggle",
+    "img": "images/items/nut.png",
+    "disabled_img": "images/items/nut.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_grass_drops"
+  },
+  {
+    "name": "Shuffle Pot Drops",
+    "type": "toggle",
+    "img": "images/items/keg.png",
+    "disabled_img": "images/items/keg.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_pot_drops"
+  },
+  {
+    "name": "Shuffle Tree Drops",
+    "type": "toggle",
+    "img": "images/items/stick.png",
+    "disabled_img": "images/items/stick.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_tree_drops"
+  },
+  {
+    "name": "Shuffle Crate Drops",
+    "type": "toggle",
+    "img": "images/items/bean.png",
+    "disabled_img": "images/items/bean.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_crate_drops"
+  },
+  {
+    "name": "Exclude Termina Field Grass",
+    "type": "toggle",
+    "img": "images/items/nut.png",
+    "disabled_img": "images/items/nut.png",
+    "img_mods": "@disabled",
+    "codes": "exclude_termina_field_grass"
+  },
+  {
+    "name": "Exclude Cow Grotto Grass",
+    "type": "toggle",
+    "img": "images/items/nut.png",
+    "disabled_img": "images/items/nut.png",
+    "img_mods": "@disabled",
+    "codes": "exclude_cow_grotto_grass"
+  },
+  // Hidden, computed-only items -- never placed in a layout. Represent
+  // "this specific grass check actually exists in the current seed"
+  // (shuffle_grass_drops AND NOT exclude_*), set programmatically in
+  // archipelago.lua since visibility_rules has no negation syntax.
+  {
+    "name": "(internal) Termina Field Grass Active",
+    "type": "toggle",
+    "img": "images/items/nut.png",
+    "codes": "grass_termina_field_active"
+  },
+  {
+    "name": "(internal) Cow Grotto Grass Active",
+    "type": "toggle",
+    "img": "images/items/nut.png",
+    "codes": "grass_cow_grotto_active"
   },
   {
     "name": "Fairysanity",

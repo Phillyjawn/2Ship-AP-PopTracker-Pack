@@ -81,7 +81,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "shuffle_regional_maps"
+                    "item": "shuffle_tingle_shops"
                   },
                   //{
                   //  "type": "item",
@@ -97,37 +97,6 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "shuffle_great_fairy_rewards"
-                  }
-                ]
-              },
-              {
-                "type": "group",
-                "header": "Sanities",
-                "content": [
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "skullsanity"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "fairysanity"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "shopsanity"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "scrubsanity"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "cowsanity"
                   }
                 ]
               },

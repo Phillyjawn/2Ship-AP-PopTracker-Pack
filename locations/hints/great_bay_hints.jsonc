@@ -10,8 +10,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 228,
-            "y": 323
+            "x": 801,
+            "y": 1136
           }
         ],
         "sections": [
@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 286,
-            "y": 393
+            "x": 1004,
+            "y": 1375
           }
         ],
         "sections": [
@@ -118,8 +118,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 207,
-            "y": 394
+            "x": 731,
+            "y": 1382
           }
         ],
         "sections": [
@@ -180,8 +180,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 137,
-            "y": 300
+            "x": 478,
+            "y": 1052
           }
         ],
         "sections": [

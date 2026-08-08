@@ -10,19 +10,19 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 236,
-            "y": 323
+            "x": 829,
+            "y": 1136
           }
         ],
         "sections": [
           {
             "name": "Healing Zora",
             "chest_unopened_img": "images/masks/zora.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_MIKAU"]
           },
           {
             "name": "Behind Fisherman's Hut Grotto Chest",
-            "access_rules": [""]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_CHEST"]
           },
           {
             "ref": "Romani Ranch/Tingle Milk Road/Great Bay Map Purchase"
@@ -33,46 +33,34 @@
           {
             "name": "Marine Research Lab Zora Egg Delivery Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
-            "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
-              "normal_logic, $can_reach_seahorse, $has|bottles|3, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_NEW_WAVE_BOSSA_NOVA"]
           },
           {
             "name": "Marine Research Lab Feeding Fish",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, $baby_has_bottle, zora",
-              "normal_logic, $has|bottles|1"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_MARINE_LAB_FISH_PIECE_OF_HEART"]
           },
           {
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_BACK"]
           },
           {
             "name": "Ledge Grotto Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["hookshot, $can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_FRONT"]
           },
           {
             "name": "Scarecrow Ledge HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, hookshot, $baby_can_plant_beans",
-              "normal_logic, hookshot, $can_plant_beans"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_PIECE_OF_HEART"]
           },
           {
             "name": "Great Bay (Cleared) Fisherman Island Game HP",
             "chest_unopened_img": "images/icons/torch.png",
-            "access_rules": [
-              "easy_logic, $baby_clear_greatbay",
-              "normal_logic, $clear_greatbay"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_MINIGAME"]
           }
         ]
       },
@@ -81,22 +69,19 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 294,
-            "y": 393
+            "x": 1033,
+            "y": 1375
           }
         ],
         "sections": [
           {
             "name": "Underwater Like-Like HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, zora, magic, bow",
-              "normal_logic, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_WATERFALL_PIECE_OF_HEART"]
           },
           {
             "name": "Underwater Chest",
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_UNDERWATER_CHEST"]
           },
           {
             "name": "Pot Game Silver Rupee",
@@ -105,33 +90,29 @@
           },
           {
             "name": "Upper Chest",
-            "access_rules": ["hookshot"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_LEDGE_CHEST_01"]
           },
           {
             "name": "Tree Chest",
-            "access_rules": ["hookshot, deku"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_LEDGE_CHEST_02"]
           },
           {
             "name": "Near Great Fairy Grotto Chest",
-            "access_rules": [
-              "easy_logic, goron, $baby_has_explosives",
-              "normal_logic, goron",
-              "normal_logic, $has_explosives"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_CHEST"]
           },
           {
             "name": "Great Bay Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             //"visibility_rules": ["shuffle_great_fairy_rewards"],
-            "access_rules": ["$has|fairy_gb|15, hookshot"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_GREAT_FAIRY"]
           },
           {
             "name": "Beaver Bros. Race Bottle Reward",
-            "access_rules": ["hookshot, zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WATERFALL_RAPIDS_BEAVER_RACE_01"]
           },
           {
             "name": "Beaver Bros. Race HP",
-            "access_rules": ["hookshot, zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WATERFALL_RAPIDS_BEAVER_RACE_02"]
           }
         ]
       },
@@ -140,8 +121,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 215,
-            "y": 394
+            "x": 759,
+            "y": 1382
           }
         ],
         "sections": [
@@ -149,48 +130,45 @@
             "name": "Shop 1",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_SHOP_ITEM_01"]
           },
           {
             "name": "Shop 2",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_SHOP_ITEM_02"]
           },
           {
             "name": "Shop 3",
             "chest_unopened_img": "images/characters/zora_shop.png",
             "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_SHOP_ITEM_03"]
           },
           {
             "name": "Deku Scrub Purchase Green Potion",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "visibility_rules": ["scrubsanity"],
-            "access_rules": [
-              "easy_logic, zora, $baby_has_bottle",
-              "normal_logic, zora, $has|bottles|1"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_HALL_SCRUB_POTION_REFILL"]
           },
           {
             "name": "Goron Scrub Trade",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["zora, mountaindeed, goron"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_HALL_SCRUB_DEED"]
           },
           {
             "name": "Goron Scrub Trade Freestanding HP",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
-            "access_rules": ["deku, zora, mountaindeed, goron"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_HALL_SCRUB_PIECE_OF_HEART"]
           },
           {
             "name": "Piano Zora Song",
             "chest_unopened_img": "images/characters/zora_piano.png",
-            "access_rules": ["zora, ocarina"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_HALL_EVANS_PIECE_OF_HEART"]
           },
           {
             "name": "Torches Reward",
             "chest_unopened_img": "images/icons/torch.png",
-            "access_rules": ["$can_use_fire_arrows"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_HALL_SCENE_LIGHTS"]
           },
           {
             "name": "Good Picture of Lulu",
@@ -209,33 +187,928 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 145,
-            "y": 300
+            "x": 506,
+            "y": 1052
           }
         ],
         "sections": [
           {
             "name": "Heart Piece",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_REUNITE_SEAHORSE"]
           },
           {
             "name": "Upper Eel Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_CHEST_01"]
           },
           {
             "name": "Lower Eel Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
-              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_CHEST_02"]
           }
+        ]
+      },
+      {
+        "name": "Great Bay Coast Owl Statue",
+        "sections": [
+          {
+            "name": "Great Bay Coast Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 780, "y": 1115 }
+        ]
+      },
+      {
+        "name": "Zora Cape Owl Statue",
+        "sections": [
+          {
+            "name": "Zora Cape Owl Statue",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_OWL_STATUE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_owl_statues"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 702, "y": 1403 }
+        ]
+      },
+      {
+        "name": "Great Bay Coast Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Great Bay Coast Ledge Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_LEDGE_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Ledge Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_LEDGE_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Ledge Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_LEDGE_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Pot 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_POT_12"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 31",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_31"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 32",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_32"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 33",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_33"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 34",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_34"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 35",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_35"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 36",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_36"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 37",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_37"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 38",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_38"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 39",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_39"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 40",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_40"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 41",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_41"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 42",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_42"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 43",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_43"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 44",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_44"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 45",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_45"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 46",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_46"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 47",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_47"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 48",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_48"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 49",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_49"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 50",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_50"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 51",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_51"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 52",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_52"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 53",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_53"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 54",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_54"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 55",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_55"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 56",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_56"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 57",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_57"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 58",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_58"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 59",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_59"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 60",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_60"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 61",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_61"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 62",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_62"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 63",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_63"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 64",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_64"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 65",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_65"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 66",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_66"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 67",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_67"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 68",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_68"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 69",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_69"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 70",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_70"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 71",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_71"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Cow Grotto Grass 72",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_COW_GROTTO_GRASS_72"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Fisherman Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_FISHERMAN_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Great Bay Coast Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Great Bay Coast Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Great Bay Coast Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Great Bay Coast Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_COAST_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 969, "y": 1227 }
+        ]
+      },
+      {
+        "name": "Pinnacle Rock Filler",
+        "sections": [
+          {
+            "name": "Pinnacle Rock Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_03"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_04"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_05"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_06"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_07"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_08"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_09"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_10"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pinnacle Rock Pot 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PINNACLE_ROCK_POT_11"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 569, "y": 1052 }
+        ]
+      },
+      {
+        "name": "Zora Cape Filler",
+        "sections": [
+          {
+            "name": "Zora Cape Near Beavers Pot 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_BEAVERS_POT_01"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Zora Cape Near Beavers Pot 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_NEAR_BEAVERS_POT_02"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Zora Cape Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Zora Cape Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Zora Cape Tree 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_TREE_03"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Zora Cape Tree 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_TREE_04"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Zora Cape Tree 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ZORA_CAPE_TREE_05"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1159, "y": 1389 }
         ]
       }
     ]

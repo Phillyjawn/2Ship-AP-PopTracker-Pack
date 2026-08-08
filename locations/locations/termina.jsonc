@@ -8,25 +8,23 @@
         "name": "South East Termina Field",
         "sections": [
           {
-            "name": "Termina Tall Grass Chest"
+            "name": "Termina Tall Grass Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_CHEST"]
           },
           {
             "name": "Termina Stump Chest",
-            "access_rules": [
-              "easy_logic, $baby_can_plant_beans, hookshot",
-              "normal_logic, $can_plant_beans",
-              "normal_logic, hookshot"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TREE_STUMP_CHEST"]
           },
           {
-            "name": "Termina Tall Grass Grotto Chest"
+            "name": "Termina Tall Grass Grotto Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 563,
-            "y": 352
+            "x": 1981,
+            "y": 1234
           }
         ]
       },
@@ -34,14 +32,15 @@
         "name": "Termina Ikana Pillar Grotto Chest",
         "sections": [
           {
-            "name": "Termina Ikana Pillar Grotto Chest"
+            "name": "Termina Ikana Pillar Grotto Chest",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 582,
-            "y": 302
+            "x": 2044,
+            "y": 1059
           }
         ]
       },
@@ -50,14 +49,14 @@
         "sections": [
           {
             "name": "Termina Underwater Chest",
-            "access_rules": ["zora"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WATER_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 478,
-            "y": 329
+            "x": 1679,
+            "y": 1150
           }
         ]
       },
@@ -66,14 +65,14 @@
         "sections": [
           {
             "name": "Defeat Peahat (Daytime Only)",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 332
+            "x": 1798,
+            "y": 1164
           }
         ]
       },
@@ -82,14 +81,14 @@
         "sections": [
           {
             "name": "Termina Dodongo Grotto Chest",
-            "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_DODONGO_GROTTO_CHEST"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 525,
-            "y": 260
+            "x": 1840,
+            "y": 912
           }
         ]
       },
@@ -105,8 +104,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 513,
-            "y": 260
+            "x": 1798,
+            "y": 912
           }
         ]
       },
@@ -116,18 +115,14 @@
         "sections": [
           {
             "name": "Termina Bio Baba Grotto HP",
-            "access_rules": [
-              "easy_logic, $baby_has_explosives, goron, zora, $baby_has_projectiles",
-              "normal_logic, $has_explosives, zora",
-              "normal_logic, goron, zora"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BIO_BABA_GROTTO"]
           }
         ],
         "map_locations":[
           {
             "map": "overworld",
-            "x": 475,
-            "y": 309
+            "x": 1672,
+            "y": 1080
           }
         ]
       },
@@ -137,17 +132,14 @@
           {
             "name": "East Clock Town Astral Observatory",
             "chest_unopened_img": "images/items/moon_tear.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles",
-              "normal_logic, $has_projectiles"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_ASTRAL_OBSERVATORY_MOON_TEAR"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 590,
-            "y": 347
+            "x": 2072,
+            "y": 1220
           }
         ]
       },
@@ -157,17 +149,14 @@
           {
             "name": "Termina Business Scrub Grotto HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": [
-              "easy_logic, $baby_has_projectiles, wallet",
-              "normal_logic, $has_projectiles, wallet"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GROTTO_SCRUB"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 583,
-            "y": 328
+            "x": 2051,
+            "y": 1150
           }
         ]
       },
@@ -177,36 +166,29 @@
         "sections": [
           {
             "name": "Termina Gossip Stones HP",
-            "access_rules": [
-              "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, deku, $can_play_sonata, $has_explosives",
-              "normal_logic, deku, $can_play_sonata, goron",
-              "normal_logic, goron, $can_play_lullaby",
-              "normal_logic, zora, $can_play_bossa_nova, $has_explosives",
-              "normal_logic, zora, $can_play_bossa_nova, goron"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 548,
-            "y": 273
+            "x": 1925,
+            "y": 954
           },
           {
             "map": "overworld",
-            "x": 599,
-            "y": 320
+            "x": 2107,
+            "y": 1122
           },
           {
             "map": "overworld",
-            "x": 498,
-            "y": 299
+            "x": 1749,
+            "y": 1052
           },
           {
             "map": "overworld",
-            "x": 515,
-            "y": 345
+            "x": 1812,
+            "y": 1206
           }
         ]
       },
@@ -216,8 +198,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 539,
-            "y": 348
+            "x": 1897,
+            "y": 1220
           }
         ],
         "sections": [
@@ -225,14 +207,2358 @@
             "name": "Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_BACK"]
           },
           {
             "name": "Right Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
-            "access_rules": ["$can_play_eponas"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_FRONT"]
           }
+        ]
+      },
+      {
+        "name": "Termina Field Filler (Grass/Pot/Tree/Crate)",
+        "sections": [
+          {
+            "name": "Cucco Shack Large Crate 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_LARGE_CRATE_01"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Cucco Shack Large Crate 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_LARGE_CRATE_02"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Cucco Shack Large Crate 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_LARGE_CRATE_03"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Termina Field Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Termina Field Scrub Large Crate",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_SCRUB_LARGE_CRATE"],
+            "chest_unopened_img": "images/items/bean.png",
+            "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Termina Field Scrub Pot",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_SCRUB_POT"],
+            "chest_unopened_img": "images/items/keg.png",
+            "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Termina Field Bio Baba Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BIO_BABA_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Bio Baba Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BIO_BABA_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 31",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_31"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 32",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_32"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 33",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_33"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 34",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_34"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 35",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_35"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 36",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_36"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 37",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_37"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 38",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_38"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 39",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_39"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 40",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_40"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 41",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_41"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 42",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_42"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 43",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_43"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 44",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_44"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 45",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_45"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 46",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_46"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 47",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_47"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 48",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_48"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 49",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_49"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 50",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_50"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 51",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_51"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 52",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_52"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 53",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_53"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 54",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_54"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 55",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_55"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 56",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_56"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 57",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_57"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 58",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_58"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 59",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_59"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 60",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_60"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 61",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_61"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 62",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_62"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 63",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_63"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 64",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_64"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 65",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_65"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 66",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_66"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 67",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_67"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 68",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_68"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 69",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_69"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 70",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_70"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 71",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_71"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Grass 72",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_GRASS_72"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_cow_grotto_active"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 4 Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_4_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 4 Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_4_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 4 Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_4_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 4 Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_4_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 4 Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_4_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_24"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_25"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_26"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_27"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_28"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_29"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_30"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 31",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_31"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 32",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_32"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 33",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_33"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 34",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_34"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 35",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_35"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 36",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_36"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 37",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_37"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 38",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_38"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 39",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_39"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 40",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_40"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 41",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_41"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 42",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_42"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 43",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_43"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 44",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_44"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 45",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_45"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 46",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_46"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 47",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_47"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 48",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_48"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 49",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_49"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 50",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_50"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 51",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_51"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 52",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_52"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 53",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_53"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 54",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_54"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 55",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_55"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 56",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_56"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 57",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_57"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 58",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_58"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 59",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_59"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 60",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_60"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 61",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_61"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 62",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_62"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 63",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_63"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 64",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_64"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 65",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_65"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 66",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_66"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 67",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_67"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 68",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_68"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 69",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_69"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 70",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_70"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 71",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_71"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 72",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_72"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 73",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_73"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 74",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_74"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 75",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_75"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 76",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_76"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 77",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_77"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 78",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_78"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 79",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_79"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 80",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_80"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 81",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_81"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 82",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_82"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 83",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_83"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 84",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_84"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 85",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_85"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 86",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_86"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 87",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_87"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 88",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_88"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 89",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_89"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 90",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_90"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 91",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_91"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 92",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_92"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 93",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_93"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 94",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_94"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 95",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_95"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 96",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_96"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 97",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_97"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 98",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_98"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 99",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_99"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 100",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_100"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 101",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_101"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 102",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_102"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 103",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_103"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 104",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_104"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 105",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_105"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 106",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_106"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 107",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_107"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 108",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_108"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 109",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_109"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 110",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_110"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 111",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_111"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 112",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_112"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 113",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_113"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 114",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_114"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 115",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_115"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 116",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_116"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 117",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_117"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 118",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_118"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 119",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_119"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 120",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_120"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 121",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_121"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 122",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_122"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 123",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_123"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 124",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_124"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 125",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_125"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 126",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_126"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 127",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_127"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 128",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_128"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 129",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_129"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 130",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_130"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 131",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_131"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 132",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_132"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 133",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_133"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 134",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_134"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 135",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_135"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 136",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_136"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 137",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_137"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 138",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_138"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 139",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_139"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 140",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_140"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 141",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_141"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 142",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_142"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 143",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_143"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 144",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_144"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 145",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_145"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 146",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_146"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 147",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_147"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 148",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_148"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 149",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_149"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 150",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_150"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 151",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_151"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 152",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_152"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 153",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_153"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 154",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_154"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 155",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_155"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 156",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_156"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 157",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_157"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 158",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_158"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 159",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_159"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 160",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_160"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 161",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_161"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 162",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_162"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 163",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_163"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 164",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_164"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 165",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_165"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 166",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_166"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 167",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_167"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 168",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_168"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 169",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_169"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 170",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_170"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 171",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_171"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 172",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_172"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 173",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_173"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 174",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_174"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 175",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_175"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 176",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_176"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 177",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_177"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 178",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_178"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 179",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_179"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 180",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_180"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 181",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_181"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 182",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_182"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 183",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_183"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 184",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_184"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 185",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_185"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 186",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_186"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 187",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_187"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 188",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_188"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 189",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_189"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 190",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_190"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 191",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_191"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 192",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_192"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 193",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_193"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 194",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_194"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 195",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_195"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 196",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_196"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 197",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_197"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 198",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_198"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 199",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_199"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 200",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_200"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 201",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_201"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 202",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_202"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 203",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_203"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 204",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_204"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 205",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_205"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 206",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_206"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 207",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_207"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 208",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_208"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 209",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_209"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 210",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_210"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 211",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_211"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 212",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_212"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 213",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_213"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 214",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_214"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 215",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_215"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Grass 216",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GRASS_216"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["grass_termina_field_active"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Peahat Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PEAHAT_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Pillar Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_PILLAR_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Termina Field Tall Grass Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TALL_GRASS_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Cucco Shack Tree",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_TREE"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Termina Field Man in the Tree Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_MAN_IN_THE_TREE_RUPEE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Termina Field Man in the Tree Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_MAN_IN_THE_TREE_RUPEE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Termina Field Tree 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TREE_01"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Termina Field Tree 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TREE_02"],
+            "chest_unopened_img": "images/items/stick.png",
+            "visibility_rules": ["shuffle_tree_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 1890, "y": 1199 }
+        ]
+      },
+      {
+        "name": "Woods of Mystery Filler",
+        "sections": [
+          {
+            "name": "Woods of Mystery Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_15"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_16"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_17"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_18"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_19"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_20"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_21"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_22"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grass 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GRASS_23"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_01"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_02"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_03"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_04"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_05"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_06"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_07"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_08"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_09"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_10"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_11"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_12"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_13"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Woods of Mystery Grotto Grass 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODS_OF_MYSTERY_GROTTO_GRASS_14"],
+            "chest_unopened_img": "images/items/nut.png",
+            "visibility_rules": ["shuffle_grass_drops"]
+          }
+        ],
+        "map_locations": [
+          { "map": "overworld", "x": 2325, "y": 1494 }
         ]
       }
     ]
