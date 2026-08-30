@@ -5,23 +5,8 @@
       {
         "title": "Overworld",
         "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Termina",
-              "content": {
-                "type": "map",
-                "maps": ["overworld"]
-              }
-            },
-            {
-              "title": "Clock Town",
-              "content": {
-                "type": "map",
-                "maps": ["clock_town"]
-              }
-            }
-          ]
+          "type": "map",
+          "maps": ["overworld"]
         }
       },
       {

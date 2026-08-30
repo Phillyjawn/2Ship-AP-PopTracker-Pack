@@ -42,6 +42,12 @@
      { "type": "item", "max_width": 40, "item": "shuffle_pot_drops" },
      { "type": "item", "max_width": 40, "item": "shuffle_tree_drops" },
      { "type": "item", "max_width": 40, "item": "shuffle_crate_drops" },
+     { "type": "item", "max_width": 40, "item": "shuffle_butterflies" },
+     { "type": "item", "max_width": 40, "item": "shuffle_hive_drops" },
+     { "type": "item", "max_width": 40, "item": "shuffle_wonder_items" },
+     { "type": "item", "max_width": 40, "item": "shuffle_snowball_drops" },
+     { "type": "item", "max_width": 40, "item": "shuffle_barrel_drops" },
+     { "type": "item", "max_width": 40, "item": "shuffle_freestanding_items" },
      { "type": "item", "max_width": 40, "item": "exclude_termina_field_grass" },
      { "type": "item", "max_width": 40, "item": "exclude_cow_grotto_grass" },
      { "type": "item", "max_width": 40, "item": "shuffle_owl_statues" }

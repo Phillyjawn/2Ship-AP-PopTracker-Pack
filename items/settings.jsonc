@@ -245,6 +245,54 @@
     "codes": "shuffle_crate_drops"
   },
   {
+    "name": "Shuffle Butterflies",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_butterflies"
+  },
+  {
+    "name": "Shuffle Hive Drops",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_hive_drops"
+  },
+  {
+    "name": "Shuffle Wonder Items",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_wonder_items"
+  },
+  {
+    "name": "Shuffle Snowball Drops",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_snowball_drops"
+  },
+  {
+    "name": "Shuffle Barrel Drops",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_barrel_drops"
+  },
+  {
+    "name": "Shuffle Freestanding Items",
+    "type": "toggle",
+    "img": "images/equipment/unknown.png",
+    "disabled_img": "images/equipment/unknown.png",
+    "img_mods": "@disabled",
+    "codes": "shuffle_freestanding_items"
+  },
+  {
     "name": "Exclude Termina Field Grass",
     "type": "toggle",
     "img": "images/items/nut.png",

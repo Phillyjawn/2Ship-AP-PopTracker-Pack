@@ -228,6 +228,18 @@ function LOGIC_REACHABLE(rc_name)
     return AccessibilityLevel.None
 end
 
+-- Same as LOGIC_REACHABLE, but for whole-region reachability
+function LOGIC_REGION_REACHABLE(rr_name)
+    updateLogicResult()
+    if LOGIC_STALE then
+        return AccessibilityLevel.Inspect
+    end
+    if LOGIC_RESULT and LOGIC_RESULT.regions[rr_name] then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -359,6 +371,12 @@ function onClear(slot_data)
     setFromSlotData("shuffle_pot_drops","shuffle_pot_drops")
     setFromSlotData("shuffle_tree_drops","shuffle_tree_drops")
     setFromSlotData("shuffle_crate_drops","shuffle_crate_drops")
+    setFromSlotData("shuffle_butterflies","shuffle_butterflies")
+    setFromSlotData("shuffle_hive_drops","shuffle_hive_drops")
+    setFromSlotData("shuffle_wonder_items","shuffle_wonder_items")
+    setFromSlotData("shuffle_snowball_drops","shuffle_snowball_drops")
+    setFromSlotData("shuffle_barrel_drops","shuffle_barrel_drops")
+    setFromSlotData("shuffle_freestanding_items","shuffle_freestanding_items")
     setFromSlotData("exclude_termina_field_grass","exclude_termina_field_grass")
     setFromSlotData("exclude_cow_grotto_grass","exclude_cow_grotto_grass")
     setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
