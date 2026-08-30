@@ -324,7 +324,7 @@
         ]
       },
       {
-        "name": "Great Bay Temple Filler (Grass/Pot/Tree/Crate)",
+        "name": "Great Bay Temple Filler",
         "sections": [
           {
             "name": "Great Bay Temple Before Wart Pot 01",
@@ -943,6 +943,168 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WART_POT_08"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Tunnel Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_TUNNEL_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Compass Room Tunnel Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_COMPASS_ROOM_TUNNEL_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Entrance Barrel 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_ENTRANCE_BARREL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Barrel 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_BARREL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 1 Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_1_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Green Pipe 2 Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_GREEN_PIPE_2_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Barrel 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_BARREL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Barrel 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_BARREL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Red Pipe Switch Room Barrel 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_RED_PIPE_SWITCH_ROOM_BARREL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Great Bay Temple Water Wheel Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WATER_WHEEL_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Water Wheel Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WATER_WHEEL_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Water Wheel Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WATER_WHEEL_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Water Wheel Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WATER_WHEEL_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Great Bay Temple Water Wheel Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_WATER_WHEEL_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
@@ -978,7 +1140,7 @@
           }
         ],
         "map_locations": [
-          { "map": "great_bay_temple", "x": 26, "y": 634 }
+          { "map": "overworld", "x": 722, "y": 1418 }
         ]
       }
     ]

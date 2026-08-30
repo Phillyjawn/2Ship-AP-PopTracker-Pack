@@ -55,7 +55,7 @@
       },
       {
         "name": "Graveyard",
-        "access_rules": ["$graveyard"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_IKANA_GRAVEYARD_LOWER"],
         "sections": [
           {
             "name": "Bombable Grotto Chest",
@@ -63,10 +63,7 @@
           },
           {
             "name": "Day 1 Bats Chest",
-            "access_rules": [
-              "easy_logic, captainhat, $baby_can_smack_hard, magic",
-              "normal_logic, captainhat, $can_smack"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_CHEST"]
           },
           {
             "name": "Day 1 Iron Knuckle Song",
@@ -79,7 +76,7 @@
           },
           {
             "name": "Day 2 Iron Knuckle Chest",
-            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_CHEST"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_PIECE_OF_HEART"]
           },
           {
             "name": "Day 3 Dampe Big Poe Chest",
@@ -100,10 +97,7 @@
       },
       {
         "name": "Ikana Canyon",
-        "access_rules": [
-          "easy_logic, $baby_ikana_canyon",
-          "normal_logic, $ikana_canyon"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_IKANA_CANYON_LOWER"],
         "sections": [
           {
             "name": "Grotto Chest",
@@ -163,10 +157,7 @@
       },
       {
         "name": "Inverted Stone Tower",
-        "access_rules": [
-          "easy_logic, $baby_inverted_stone_tower",
-          "normal_logic, $inverted_stone_tower"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_STONE_TOWER_INVERTED_LOWER"],
         "sections": [
           {
             "name": "Outside Left Chest",
@@ -557,6 +548,48 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_EARLY_POT"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Beneath The Graveyard Night 2 Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_BENEATH_THE_GRAVEYARD_NIGHT_2_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
@@ -924,11 +957,11 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 2444, "y": 267 }
+          { "map": "overworld", "x": 2888, "y": 314 }
         ]
       },
       {
-        "name": "Ikana Filler (Grass/Pot/Tree/Crate)",
+        "name": "Ikana Filler",
         "sections": [
           {
             "name": "Road to Ikana Pot",
@@ -1295,6 +1328,78 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_IKANA_GROTTO_GRASS_14"],
             "chest_unopened_img": "images/items/nut.png",
             "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ikana Graveyard Wonder Item 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_IKANA_GRAVEYARD_WONDER_ITEM_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [
@@ -1569,6 +1674,108 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_WIZZROBE_GRASS_05"],
             "chest_unopened_img": "images/items/nut.png",
             "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Secret Shrine Freestanding Rupee 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SECRET_SHRINE_FREESTANDING_RUPEE_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [

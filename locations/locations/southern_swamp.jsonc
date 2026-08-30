@@ -40,7 +40,7 @@
       },
       {
         "name": "Swamp Shooting Gallery",
-        "access_rules": ["bow"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SWAMP_SHOOTING_GALLERY"],
         "chest_unopened_img": "images/icons/archery.png",
         "chest_opened_img": "images/icons/archery_grey.png",
         "sections": [
@@ -82,8 +82,8 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 1911,
-            "y": 1473
+            "x": 1852,
+            "y": 1355
           }
         ]
       },
@@ -145,10 +145,7 @@
           {
             "name": "Tour Guide Okay Picture",
             "chest_unopened_img": "images/items/pictobox.png",
-            "access_rules": [
-              "easy_logic, $baby_deku_palace, pictobox",
-              "normal_logic, pictobox"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TOURIST_INFORMATION_PICTOBOX"]
           }
         ],
         "map_locations": [
@@ -164,6 +161,7 @@
         "sections": [
           {
             "name": "Southern Swamp Healthy Witch Request",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_HAGS_POTION_SHOP_KOTAKE"],
             "chest_unopened_img": "images/items/red_potion.png"
           }
         ],
@@ -181,7 +179,7 @@
           {
             "name": "Item 1",
             "chest_unopened_img": "images/items/red_potion.png",
-            "access_rules": ["maskofscents, $has|bottles|1"],
+            "access_rules": ["^$LOGIC_REACHABLE|RC_HAGS_POTION_SHOP_ITEM_01"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -190,6 +188,7 @@
           {
             "name": "Item 2",
             "chest_unopened_img": "images/items/green_potion.png",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_HAGS_POTION_SHOP_ITEM_02"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -198,17 +197,24 @@
           {
             "name": "Item 3",
             "chest_unopened_img": "images/items/blue_potion.png",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_HAGS_POTION_SHOP_ITEM_03"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
+          },
+          {
+            "name": "Hags Potion Shop Freestanding Rupee",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_HAGS_POTION_SHOP_FREESTANDING_RUPEE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 2037,
-            "y": 1592
+            "x": 2234,
+            "y": 1417
           }
         ]
       },
@@ -223,14 +229,14 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 2283,
-            "y": 1543
+            "x": 2221,
+            "y": 1378
           }
         ]
       },
       {
         "name": "Deku Palace Monkey Song",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_KINGS_CHAMBER_MONKEY"],
         "sections": [
           {
             "name": "Deku Palace Monkey Song",
@@ -248,7 +254,7 @@
       },
       {
         "name": "Deku Palace HP",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_PIECE_OF_HEART"],
         "sections": [
           {
             "name": "Deku Palace HP",
@@ -266,7 +272,7 @@
       },
       {
         "name": "Deku Palace Bean Grotto",
-        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_GROTTO_CHEST"],
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
@@ -288,7 +294,7 @@
       },
       {
         "name": "Southern Swamp Song Tablet",
-        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SOUTHERN_SWAMP_SOUTH_UPPER"],
         "sections": [
           {
             "name": "Southern Swamp Song Tablet",
@@ -299,14 +305,14 @@
         "map_locations": [
           {
             "map": "overworld",
-            "x": 1876,
-            "y": 1767
+            "x": 1810,
+            "y": 1627
           }
         ]
       },
       {
         "name": "Southern Swamp Near Swamphouse Grotto Chest",
-        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SOUTHERN_SWAMP_GROTTO"],
         "sections": [
           {
             "name": "Southern Swamp Near Swamphouse Grotto Chest",
@@ -323,7 +329,7 @@
       },
       {
         "name": "Woodfall",
-        "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_WOODFALL"],
         "sections": [
           {
             "name": "Woodfall Near Owl Statue Chest",
@@ -385,7 +391,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 1840, "y": 1543 }
+          { "map": "overworld", "x": 1833, "y": 1613 }
         ]
       },
       {
@@ -399,7 +405,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 1833, "y": 1613 }
+          { "map": "overworld", "x": 1961, "y": 1510 }
         ]
       },
       {
@@ -488,10 +494,178 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_GRASS_12"],
             "chest_unopened_img": "images/items/nut.png",
             "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Butterfly 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_BUTTERFLY_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Butterfly 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_BUTTERFLY_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Butterfly 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_BUTTERFLY_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Deku Palace Bean Salesman Grotto Butterfly 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_BEAN_SALESMAN_GROTTO_BUTTERFLY_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_18"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_19"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_20"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_21"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_22"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_23"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Palace Freestanding Rupee 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PALACE_FREESTANDING_RUPEE_24"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 1637, "y": 1880 }
+          { "map": "overworld", "x": 1575, "y": 1789 }
         ]
       },
       {
@@ -508,6 +682,186 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_POT_02"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_18"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_19"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_20"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_21"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 22",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_22"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 23",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_23"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 24",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_24"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 25",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_25"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 26",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_26"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 27",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_27"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 28",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_28"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 29",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_29"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Shrine Freestanding Rupee 30",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_SHRINE_FREESTANDING_RUPEE_30"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
@@ -515,7 +869,7 @@
         ]
       },
       {
-        "name": "Southern Swamp & Woodfall Filler (Grass/Pot/Tree/Crate)",
+        "name": "Southern Swamp & Woodfall Filler",
         "sections": [
           {
             "name": "Southern Swamp Clear Pot 01",
@@ -1338,6 +1692,30 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_ROAD_TO_SOUTHERN_SWAMP_TREE_06"],
             "chest_unopened_img": "images/items/stick.png",
             "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Southern Swamp Poison Beehive",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_POISON_BEEHIVE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Southern Swamp Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Southern Swamp Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SOUTHERN_SWAMP_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Woodfall Freestanding Rupee",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_FREESTANDING_RUPEE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [

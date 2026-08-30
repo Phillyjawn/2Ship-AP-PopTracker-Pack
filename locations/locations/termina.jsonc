@@ -98,14 +98,14 @@
           {
             "name": "Termina Northern Midnight Dancer (Midnight - 6 AM)",
             "chest_unopened_img": "images/characters/kamaro.png",
-            "access_rules": ["$can_play_healing"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_KAMARO_MASK"]
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 1798,
-            "y": 912
+            "x": 1691,
+            "y": 944
           }
         ]
       },
@@ -194,7 +194,7 @@
       },
       {
         "name": "Termina Log Bombable Grotto",
-        "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, $has_explosives"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_TERMINA_FIELD_COW_GROTTO"],
         "map_locations": [
           {
             "map": "overworld",
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "name": "Termina Field Filler (Grass/Pot/Tree/Crate)",
+        "name": "Termina Field Filler",
         "sections": [
           {
             "name": "Cucco Shack Large Crate 01",
@@ -2325,6 +2325,450 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_TREE_02"],
             "chest_unopened_img": "images/items/stick.png",
             "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Termina Field Butterfly 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BUTTERFLY_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Butterfly 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BUTTERFLY_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Butterfly 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_BUTTERFLY_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Butterfly 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_BUTTERFLY_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Butterfly 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_BUTTERFLY_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Butterfly 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_BUTTERFLY_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Butterfly 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_BUTTERFLY_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Termina Field Bio Baba Grotto Beehive 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BIO_BABA_GROTTO_BEEHIVE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Termina Field Bio Baba Grotto Beehive 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_BIO_BABA_GROTTO_BEEHIVE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Termina Field Cow Grotto Beehive",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_COW_GROTTO_BEEHIVE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Termina Field Gossip Stone Grotto 3 Beehive",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GOSSIP_STONE_GROTTO_3_BEEHIVE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Termina Field Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_18"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_19"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Termina Field Guay Rupee Drop 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_GUAY_RUPEE_DROP_20"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Cucco Shack Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CUCCO_SHACK_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wall Wonder Item 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WALL_WONDER_ITEM_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 18",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_18"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 19",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_19"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 20",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_20"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Termina Field Wonder Item 21",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TERMINA_FIELD_WONDER_ITEM_21"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [
@@ -2558,7 +3002,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 2325, "y": 1494 }
+          { "map": "overworld", "x": 2222, "y": 1338 }
         ]
       }
     ]

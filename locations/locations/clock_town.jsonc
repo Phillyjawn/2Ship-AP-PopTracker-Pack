@@ -14,11 +14,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 58,
-            "y": 64
-          }
+          { "map": "overworld", "x": 1815, "y": 1045 }
         ]
       },
       {
@@ -31,11 +27,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 45,
-            "y": 78
-          }
+          { "map": "overworld", "x": 1770, "y": 1092 }
         ]
       },
       {
@@ -47,11 +39,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 58,
-            "y": 92
-          }
+          { "map": "overworld", "x": 1811, "y": 1095 }
         ]
       },
       {
@@ -63,11 +51,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 78,
-            "y": 105
-          }
+          { "map": "overworld", "x": 1843, "y": 1106 }
         ]
       },
       {
@@ -80,31 +64,11 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 105,
-            "y": 38
-          },
-          {
-            "map": "clock_town",
-            "x": 112,
-            "y": 85
-          },
-          {
-            "map": "clock_town",
-            "x": 48,
-            "y": 103
-          },
-          {
-            "map": "clock_town",
-            "x": 74,
-            "y": 58
-          },
-          {
-            "map": "clock_town",
-            "x": 78,
-            "y": 29
-          }
+          { "map": "overworld", "x": 1866, "y": 1005 },
+          { "map": "overworld", "x": 1870, "y": 1065 },
+          { "map": "overworld", "x": 1769, "y": 1105 },
+          { "map": "overworld", "x": 1838, "y": 970 },
+          { "map": "overworld", "x": 1819, "y": 961 }
         ]
       },
       {
@@ -117,11 +81,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 49,
-            "y": 28
-          }
+          { "map": "overworld", "x": 1781, "y": 953 }
         ]
       },
       {
@@ -134,11 +94,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 75,
-            "y": 13
-          }
+          { "map": "overworld", "x": 1810, "y": 953 }
         ]
       },
       {
@@ -153,19 +109,123 @@
             "name": "North Clock Town Deku Playground All Days",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
             "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_ALL_DAYS"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 1 Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_1_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 2 Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_2_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Deku Playground Day 3 Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_DEKU_PLAYGROUND_DAY_3_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 31,
-            "y": 36
-          }
+          { "map": "overworld", "x": 1753, "y": 981 }
         ]
       },
       {
         "name": "Clock Town Great Fairy",
-        "access_rules": ["fairy_ct"],
+        "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_GREAT_FAIRY"],
         //"visibility_rules": ["shuffle_great_fairy_rewards"],
         "chest_unopened_img": "images/equipment/fairy_ct.png",
         "sections": [
@@ -179,11 +239,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 23,
-            "y": 28
-          }
+          { "map": "overworld", "x": 1751, "y": 978 }
         ]
       },
       {
@@ -196,11 +252,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 72,
-            "y": 8
-          },
+          { "map": "overworld", "x": 1806, "y": 950 },
           {
             "map": "overworld",
             "x": 1616,
@@ -218,11 +270,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 72,
-            "y": 35
-          }
+          { "map": "overworld", "x": 1817, "y": 968 }
         ]
       },
       {
@@ -234,11 +282,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 85,
-            "y": 105
-          }
+          { "map": "overworld", "x": 1854, "y": 1106 }
         ]
       },
       {
@@ -256,11 +300,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 107,
-            "y": 20
-          }
+          { "map": "overworld", "x": 1877, "y": 993 }
         ]
       },
       {
@@ -277,11 +317,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 118,
-            "y": 78
-          }
+          { "map": "overworld", "x": 1928, "y": 1051 }
         ]
       },
       {
@@ -298,11 +334,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 106,
-            "y": 96
-          }
+          { "map": "overworld", "x": 1915, "y": 1078 }
         ]
       },
       {
@@ -326,11 +358,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 88,
-            "y": 83
-          }
+          { "map": "overworld", "x": 1878, "y": 1072 }
         ]
       },
       {
@@ -342,11 +370,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 118,
-            "y": 31
-          }
+          { "map": "overworld", "x": 1914, "y": 990 }
         ]
       },
       {
@@ -378,12 +402,12 @@
           {
             "name": "Stock Pot Inn Granny Story #1",
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
-            "access_rules": ["allnightmask"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STOCK_POT_INN_GRANDMA_LONG_STORY"]
           },
           {
             "name": "Stock Pot Inn Granny Story #2",
             "chest_unopened_img": "images/characters/anjus_grandmother.png",
-            "access_rules": ["allnightmask"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STOCK_POT_INN_GRANDMA_SHORT_STORY"]
           },
           {
             "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
@@ -392,11 +416,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 92,
-            "y": 58
-          }
+          { "map": "overworld", "x": 1859, "y": 1010 }
         ]
       },
       {
@@ -432,11 +452,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 108,
-            "y": 56
-          }
+          { "map": "overworld", "x": 1886, "y": 1023 }
         ]
       },
 
@@ -451,11 +467,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 19,
-            "y": 56
-          }
+          { "map": "overworld", "x": 1731, "y": 1024 }
         ]
       },
       {
@@ -476,11 +488,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 24,
-            "y": 78
-          }
+          { "map": "overworld", "x": 1728, "y": 1054 }
         ]
       },
       {
@@ -493,11 +501,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 15,
-            "y": 46
-          }
+          { "map": "overworld", "x": 1723, "y": 1020 }
         ]
       },
       {
@@ -515,11 +519,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 22,
-            "y": 46
-          }
+          { "map": "overworld", "x": 1738, "y": 1020 }
         ]
       },
       {
@@ -532,11 +532,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 25,
-            "y": 107
-          }
+          { "map": "overworld", "x": 1740, "y": 1100 }
         ]
       },
       {
@@ -550,11 +546,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 12,
-            "y": 104
-          }
+          { "map": "overworld", "x": 1740, "y": 1147 }
         ]
       },
       {
@@ -564,25 +556,21 @@
           {
             "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM)",
             "chest_unopened_img": "images/characters/kafei.png",
-            "access_rules": ["kafeiletter"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_KAFEIS_HIDEOUT_PENDANT_OF_MEMORIES"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
-            "access_rules": ["kafeiletter"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_KAFEIS_HIDEOUT_KEATON_MASK"]
           },
           {
             "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM)",
             "chest_unopened_img": "images/characters/curiosity_shop_man.png",
-            "access_rules": ["kafeiletter"]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_KAFEIS_HIDEOUT_LETTER_TO_MAMA"]
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 10,
-            "y": 86
-          }
+          { "map": "overworld", "x": 1725, "y": 1067 }
         ]
       },
       {
@@ -610,21 +598,13 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 58,
-            "y": 48
-          }
+          { "map": "overworld", "x": 1812, "y": 978 }
         ]
       },
       {
         "name": "Trading Post",
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 16,
-            "y": 84
-          }
+          { "map": "overworld", "x": 1715, "y": 1053 }
         ],
         "sections": [
           {
@@ -745,11 +725,7 @@
         "name": "Bomb Shop",
         "chest_unopened_img": "images/icons/bomb_shop_sign.png",
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 10,
-            "y": 74
-          }
+          { "map": "overworld", "x": 1708, "y": 1042 }
         ],
         "sections": [
           {
@@ -798,11 +774,7 @@
         "name": "Curiosity Shop (10 PM - 6 AM)",
         "chest_unopened_img": "images/icons/curiosity_shop.png",
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 25,
-            "y": 91
-          }
+          { "map": "overworld", "x": 1728, "y": 1061 }
         ],
         "sections": [
           {
@@ -870,11 +842,7 @@
         //  "shuffle_regional_maps_anywhere"
         //],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 60,
-            "y": 16
-          }
+          { "map": "overworld", "x": 1798, "y": 953 }
         ],
         "sections": [
           {
@@ -894,11 +862,7 @@
         "name": "West Clock Town Lottery",
         "chest_unopened_img": "images/icons/lottery.png",
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 28,
-            "y": 64
-          }
+          { "map": "overworld", "x": 1737, "y": 1029 }
         ],
         "sections": [
           {
@@ -918,11 +882,7 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "clock_town",
-            "x": 42,
-            "y": 48
-          }
+          { "map": "overworld", "x": 1786, "y": 1037 }
         ]
       },
       {
@@ -972,7 +932,7 @@
           }
         ],
         "map_locations": [
-          { "map": "clock_town", "x": 120, "y": 40 }
+          { "map": "overworld", "x": 2138, "y": 1126 }
         ]
       },
       {
@@ -1004,11 +964,11 @@
           }
         ],
         "map_locations": [
-          { "map": "clock_town", "x": 65, "y": 46 }
+          { "map": "overworld", "x": 1818, "y": 978 }
         ]
       },
       {
-        "name": "Clock Town Filler (Grass/Pot/Tree/Crate)",
+        "name": "Clock Town Filler",
         "sections": [
           {
             "name": "Clock Town East Small Crate 01",
@@ -1111,10 +1071,124 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_NORTH_TREE_01"],
             "chest_unopened_img": "images/items/stick.png",
             "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Clock Town Laundry Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_LAUNDRY_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Clock Town Laundry Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_LAUNDRY_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Clock Town Laundry Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_LAUNDRY_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town East Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_EAST_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town North Keaton Grass Wonder Item",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_NORTH_KEATON_GRASS_WONDER_ITEM"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town South Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_SOUTH_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town South Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_SOUTH_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Clock Town South Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_CLOCK_TOWN_SOUTH_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Stock Pot Inn Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STOCK_POT_INN_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Stock Pot Inn Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STOCK_POT_INN_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Stock Pot Inn Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STOCK_POT_INN_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [
-          { "map": "clock_town", "x": 89, "y": 12 }
+          { "map": "overworld", "x": 1818, "y": 945 }
         ]
       },
       {
@@ -1149,10 +1223,16 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_SWORDSMAN_SCHOOL_POT_05"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Swordsman School Wonder Item",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWORDSMAN_SCHOOL_WONDER_ITEM"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [
-          { "map": "clock_town", "x": 7, "y": 38 }
+          { "map": "overworld", "x": 1723, "y": 1005 }
         ]
       }
     ]

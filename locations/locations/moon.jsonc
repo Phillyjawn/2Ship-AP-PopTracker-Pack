@@ -3,7 +3,7 @@
     "name": "Inside the Moon",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
-    "access_rules": ["$moon"],
+    "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_MOON"],
     "children": [
       {
         "name": "Deku Trial",
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "name": "Moon Filler (Grass/Pot/Tree/Crate)",
+        "name": "Moon Filler",
         "sections": [
           {
             "name": "Moon Majora Pot 01",
@@ -253,7 +253,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 1756, "y": 1978 }
+          { "map": "overworld", "x": 456, "y": 2010 }
         ]
       }
     ]

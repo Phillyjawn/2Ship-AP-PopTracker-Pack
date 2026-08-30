@@ -354,7 +354,7 @@
         ]
       },
       {
-        "name": "Snowhead Temple Filler (Grass/Pot/Tree/Crate)",
+        "name": "Snowhead Temple Filler",
         "sections": [
           {
             "name": "Snowhead Temple Block Room Pot 01",
@@ -811,6 +811,180 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_BOTTOM_GRASS_10"],
             "chest_unopened_img": "images/items/nut.png",
             "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Bridge Room Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_BRIDGE_ROOM_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 2 Small Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_2_SMALL_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 3 Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_3_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 3 Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_3_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 3 Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_3_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Central Room Level 3 Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_CENTRAL_ROOM_LEVEL_3_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Icicle Room Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_ICICLE_ROOM_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Temple Snow Room Small Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_TEMPLE_SNOW_ROOM_SMALL_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
           }
         ],
         "map_locations": [

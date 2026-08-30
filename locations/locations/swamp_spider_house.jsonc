@@ -444,7 +444,7 @@
         ]
       },
       {
-        "name": "Swamp Spider House Filler (Grass/Pot/Tree/Crate)",
+        "name": "Swamp Spider House Filler",
         "sections": [
           {
             "name": "Swamp Spider House Gold Room Lower Pot 01",
@@ -625,6 +625,162 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_MONUMENT_ROOM_POT_02"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Swamp Spider House Gold Room Beehive 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_GOLD_ROOM_BEEHIVE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Gold Room Beehive 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_GOLD_ROOM_BEEHIVE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Gold Room Beehive 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_GOLD_ROOM_BEEHIVE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Pot Room Beehive 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_POT_ROOM_BEEHIVE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Pot Room Beehive 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_POT_ROOM_BEEHIVE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Pot Room Beehive 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_POT_ROOM_BEEHIVE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Tree Room Beehive 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_TREE_ROOM_BEEHIVE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Tree Room Beehive 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_TREE_ROOM_BEEHIVE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Tree Room Beehive 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_TREE_ROOM_BEEHIVE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Swamp Spider House Wonder Item 17",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SPIDER_HOUSE_WONDER_ITEM_17"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [

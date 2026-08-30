@@ -8,10 +8,7 @@
         "name": "Woodfall Temple",
         "chest_unopened_img": "images/icons/chest.png",
         "chest_opened_img": "images/icons/check_32.png",
-        "access_rules": [
-          "easy_logic, $baby_woodfall_temple",
-          "normal_logic, $woodfall_temple"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_WOODFALL_TEMPLE_ENTRANCE"],
         "sections": [
           {
             "name": "Woodfall Temple Entrance Chest",
@@ -124,11 +121,7 @@
           },
           {
             "name": "Woodfall Temple Odolwa's Remains",
-            "access_rules": [
-              "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-              "normal_logic, $can_smack, bow, bosskey_wf",
-              "normal_logic, $can_smack, bow, odolwa, boss_warps_with_remains"
-            ],
+            "access_rules": ["^$LOGIC_REACHABLE|RC_WOODFALL_TEMPLE_BOSS_CONTAINER"],
             "hosted_item": "boss_odolwa_hosted"
           },
           {
@@ -147,10 +140,7 @@
         "name": "Snowhead Temple",
         "chest_unopened_img": "images/icons/chest.png",
         "chest_opened_img": "images/icons/check_32.png",
-        "access_rules": [
-          "easy_logic, $baby_snowhead_temple",
-          "normal_logic, $snowhead_temple"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SNOWHEAD_OUTSIDE_TEMPLE_ENTRANCE"],
         "sections": [
           {
             "name": "Initial Runway Ice Blowers Chest",
@@ -280,10 +270,7 @@
       },
       {
         "name": "Great Bay Temple",
-        "access_rules": [
-          "easy_logic, $baby_great_bay_temple",
-          "normal_logic, $great_bay_temple"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_GREAT_BAY_TEMPLE_ENTRANCE"],
         "sections": [
           {
             "name": "Four Torches Chest",
@@ -343,10 +330,7 @@
             "name": "Froggy Entrance Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             "visibility_rules": ["fairysanity"],
-            "access_rules": [
-              "easy_logic, zora, bow, fairymask",
-              "normal_logic"
-            ]
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GREAT_BAY_TEMPLE_SF_COMPASS_ROOM_TUNNEL_POT"]
           },
           {
             "name": "Behind Locked Door Chest",
@@ -410,7 +394,7 @@
       },
       {
         "name": "Pirates' Fortress",
-        "access_rules": ["$pirates_fortress"],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_PIRATES_FORTRESS_MOAT_LOWER"],
         "sections": [
           {
             "name": "Pirates' Fortress Exterior Underwater Log Chest",
@@ -474,10 +458,7 @@
         "name": "Swamp Spider House",
         "chest_unopened_img": "images/equipment/skull_ss.png",
         "chest_opened_img": "images/icons/check_32.png",
-        "access_rules": [
-          "easy_logic, $baby_swamp_skull_house",
-          "normal_logic, $swamp_skull_house"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SWAMP_SPIDER_HOUSE_ENTRANCE"],
         "sections": [
           {
             "name": "Collect 30 Tokens",
@@ -632,10 +613,7 @@
           },
           {
             "name": "Swamphouse Tree Room Beehive Token",
-            "access_rules": [
-              "easy_logic, $baby_can_smack, $baby_has_projectiles, $can_play_sonata, deku",
-              "normal_logic, $can_smack, $has_projectiles"
-            ],
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SWAMP_SKULLTULA_TREE_ROOM_HIVE"],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           }
         ],
@@ -650,10 +628,7 @@
       {
         "name": "Ocean Spider House",
         "chest_unopened_img": "images/equipment/skull_gb.png",
-        "access_rules": [
-          "easy_logic, $baby_ocean_spider_house",
-          "normal_logic, $ocean_spider_house"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_OCEAN_SPIDER_HOUSE_ENTRANCE_UPPER"],
         "sections": [
           {
             "name": "Ramp Upper Token",
@@ -838,10 +813,7 @@
       },
       {
         "name": "Secret Shrine",
-        "access_rules": [
-          "easy_logic, $baby_secret_shrine",
-          "normal_logic, $secret_shrine"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SECRET_SHRINE_ENTRANCE"],
         "sections": [
           {
             "name": "Left Chest",
@@ -874,10 +846,7 @@
       },
       {
         "name": "Beneath the Well",
-        "access_rules": [
-          "easy_logic, $baby_well",
-          "normal_logic, $well"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_BENEATH_THE_WELL_ENTRANCE"],
         "sections": [
           {
             "name": "Cow",
@@ -908,10 +877,7 @@
       },
       {
         "name": "Ikana Castle",
-        "access_rules": [
-          "easy_logic, $baby_ikana_castle",
-          "normal_logic, $ikana_castle"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_IKANA_CASTLE_FRONT_ENTRANCE"],
         "sections": [
           {
             "name": "Pillar Freestanding HP",
@@ -933,10 +899,7 @@
       },
       {
         "name": "Stone Tower Temple",
-        "access_rules": [
-          "easy_logic, $baby_stone_tower_temple",
-          "normal_logic, $stone_tower_temple"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_STONE_TOWER_TEMPLE_ENTRANCE"],
         "sections": [
           {
             "name": "Entrance Room Eye Switch Chest",
@@ -1013,10 +976,7 @@
       },
       {
         "name": "Inverted Stone Tower Temple",
-        "access_rules": [
-          "easy_logic, $baby_inverted_stone_tower",
-          "normal_logic, $inverted_stone_tower"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_STONE_TOWER_TEMPLE_INVERTED_ENTRANCE"],
         "sections": [
           {
             "name": "Entrance Room Sun Face Chest",
@@ -1083,7 +1043,7 @@
         ]
       },
       {
-        "name": "Ocean Spider House Filler (Grass/Pot/Tree/Crate)",
+        "name": "Ocean Spider House Filler",
         "sections": [
           {
             "name": "Ocean Spider House Colored Skulls Pot 01",
@@ -1186,6 +1146,60 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_STORAGE_TOP_POT_03"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Ocean Spider House Wonder Item 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_OCEAN_SPIDER_HOUSE_WONDER_ITEM_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
           }
         ],
         "map_locations": [
@@ -1193,7 +1207,7 @@
         ]
       },
       {
-        "name": "Pirates' Fortress Filler (Grass/Pot/Tree/Crate)",
+        "name": "Pirates' Fortress Filler",
         "sections": [
           {
             "name": "Pirate Fortress Interior Barrel Maze Pot 01",
@@ -1314,6 +1328,288 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_WATERWAY_POT_02"],
             "chest_unopened_img": "images/items/keg.png",
             "visibility_rules": ["shuffle_pot_drops"]
+          },
+          {
+            "name": "Pirates' Fortress Captain Room Upper Beehive",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_CAPTAIN_ROOM_UPPER_BEEHIVE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Pirate Fortress Captain Room Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_CAPTAIN_ROOM_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Captain Room Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_CAPTAIN_ROOM_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Interior Guarded Barrel",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_INTERIOR_GUARDED_BARREL"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Barrel",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_BARREL"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Freestanding Heart 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_FREESTANDING_HEART_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Freestanding Heart 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_FREESTANDING_HEART_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Freestanding Heart 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_FREESTANDING_HEART_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Barrel 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_BARREL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Barrel 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_BARREL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Barrel 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_BARREL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers End Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_END_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 14",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_14"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 15",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_15"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Barrel 16",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_BARREL_16"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Sewers Heart Piece Room Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_SEWERS_HEART_PIECE_ROOM_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Pirate Fortress Interior Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_INTERIOR_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Interior Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_INTERIOR_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Interior Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_INTERIOR_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Plaza Wonder Item 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_PLAZA_WONDER_ITEM_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Pirate Fortress Entrance Barrel",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PIRATE_FORTRESS_ENTRANCE_BARREL"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_barrel_drops"]
           }
         ],
         "map_locations": [

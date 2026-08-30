@@ -3,14 +3,11 @@
     "name": "Snowhead",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
-    "access_rules": ["$path_mountain"],
+    "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_PATH_TO_MOUNTAIN_VILLAGE_LOWER"],
     "children": [
       {
         "name": "Mountain Village",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_MOUNTAIN_VILLAGE"],
         "map_locations": [
           {
             "map": "overworld",
@@ -60,10 +57,7 @@
       },
       {
         "name": "Twin Islands",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_PATH_TO_GORON_VILLAGE"],
         "map_locations": [
           {
             "map": "overworld",
@@ -111,15 +105,12 @@
       },
       {
         "name": "Lens Cave",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_LONE_PEAK_SHRINE_ENTRANCE"],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 2374,
-            "y": 210
+            "x": 2845,
+            "y": 310
           }
         ],
         "sections": [
@@ -139,15 +130,12 @@
       },
       {
         "name": "Goron Village",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_GORON_VILLAGE"],
         "map_locations": [
           {
             "map": "overworld",
-            "x": 2248,
-            "y": 421
+            "x": 2637,
+            "y": 300
           }
         ],
         "sections": [
@@ -223,10 +211,7 @@
       },
       {
         "name": "Path to Snowhead",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village",
-          "normal_logic, $mountain_village"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_PATH_TO_SNOWHEAD_LOWER"],
         "map_locations": [
           {
             "map": "overworld",
@@ -248,10 +233,7 @@
       },
       {
         "name": "Snowhead",
-        "access_rules": [
-          "easy_logic, $baby_mountain_village, goron, magic",
-          "normal_logic, $mountain_village, goron, magic"
-        ],
+        "access_rules": ["^$LOGIC_REGION_REACHABLE|RR_SNOWHEAD_GREAT_FAIRY_FOUNTAIN"],
         "map_locations": [
           {
             "map": "overworld",
@@ -305,7 +287,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 1644, "y": 1964 }
+          { "map": "overworld", "x": 1910, "y": 491 }
         ]
       },
       {
@@ -627,7 +609,7 @@
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 2304, "y": 505 }
+          { "map": "overworld", "x": 2641, "y": 312 }
         ]
       },
       {
@@ -638,14 +620,140 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_CRATE"],
             "chest_unopened_img": "images/items/bean.png",
             "visibility_rules": ["shuffle_crate_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Large Snowball 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_LARGE_SNOWBALL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Goron Village Small Snowball 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_GORON_VILLAGE_SMALL_SNOWBALL_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
           }
         ],
         "map_locations": [
-          { "map": "overworld", "x": 2353, "y": 442 }
+          { "map": "overworld", "x": 2635, "y": 360 }
         ]
       },
       {
-        "name": "Snowhead & Mountain Village Filler (Grass/Pot/Tree/Crate)",
+        "name": "Snowhead & Mountain Village Filler",
         "sections": [
           {
             "name": "Mountain Village Spring Pot",
@@ -1108,6 +1216,366 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_TREE_04"],
             "chest_unopened_img": "images/items/stick.png",
             "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Butterfly 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BUTTERFLY_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_butterflies"]
+          },
+          {
+            "name": "Mountain Village Spring Beehive",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_BEEHIVE"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_hive_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Mountain Village Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Large Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Small Snowball 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Large Snowball 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_LARGE_SNOWBALL_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Mountain Village Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_MOUNTAIN_VILLAGE_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Path To Snowhead Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_PATH_TO_SNOWHEAD_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Mountain Village Spring Keaton Grass Wonder Item",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_MOUNTAIN_VILLAGE_SPRING_KEATON_GRASS_WONDER_ITEM"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_wonder_items"]
+          },
+          {
+            "name": "Snowhead Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Large Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Large Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_LARGE_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Snowhead Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_SNOWHEAD_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
           }
         ],
         "map_locations": [
@@ -1308,6 +1776,144 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_TREE_03"],
             "chest_unopened_img": "images/items/stick.png",
             "visibility_rules": ["shuffle_tree_drops"]
+          },
+          {
+            "name": "Twin Islands Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Twin Islands Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Twin Islands Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Twin Islands Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 12",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_12"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Large Snowball 13",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_LARGE_SNOWBALL_13"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
+          },
+          {
+            "name": "Twin Islands Small Snowball 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_TWIN_ISLANDS_SMALL_SNOWBALL_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_snowball_drops"]
           }
         ],
         "map_locations": [

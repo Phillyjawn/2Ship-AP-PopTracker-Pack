@@ -389,7 +389,7 @@
         ]
       },
       {
-        "name": "Stone Tower Temple Filler (Grass/Pot/Tree/Crate)",
+        "name": "Stone Tower Temple Filler",
         "sections": [
           {
             "name": "Stone Tower Temple Center Small Crate 01",
@@ -942,6 +942,198 @@
             "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SWITCH_ROOM_GRASS_06"],
             "chest_unopened_img": "images/items/nut.png",
             "visibility_rules": ["shuffle_grass_drops"]
+          },
+          {
+            "name": "Stone Tower Temple Center Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_CENTER_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Center Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_CENTER_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 09",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_09"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 10",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_10"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Pre Boss Freestanding Rupee 11",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_PRE_BOSS_FREESTANDING_RUPEE_11"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wind Room Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIND_ROOM_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wind Room Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIND_ROOM_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wind Room Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIND_ROOM_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wind Room Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIND_ROOM_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Inverted Wind Room Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_INVERTED_WIND_ROOM_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 07",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_07"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Spiked Bar Room Freestanding Rupee 08",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_SPIKED_BAR_ROOM_FREESTANDING_RUPEE_08"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 01",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_01"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 02",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_02"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 03",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_03"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 04",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_04"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 05",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_05"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
+          },
+          {
+            "name": "Stone Tower Temple Wind Room Freestanding Rupee 06",
+            "access_rules": ["^$LOGIC_REACHABLE|RC_STONE_TOWER_TEMPLE_WIND_ROOM_FREESTANDING_RUPEE_06"],
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "visibility_rules": ["shuffle_freestanding_items"]
           }
         ],
         "map_locations": [
