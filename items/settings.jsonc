@@ -183,7 +183,7 @@
         "inherit_codes": false
       },
       {
-        "name": "Ignore",
+        "name": "Advanced",
         "img": "images/pack_settings/sanities/shopsanity_advanced.png",
         "codes": "shopsanity_advanced",
         "inherit_codes": false
